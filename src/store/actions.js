@@ -1,6 +1,9 @@
+import Vue from 'vue';
+
 export default {
   fetchWorldData({ commit }) {
-    console.log('object');
-    commit('updateWorldData', 'yo mutations');
+    Vue.axios.get('https://coronavirus-19-api.herokuapp.com/all').then((res) => {
+      commit('updateWorldData', res.data);
+    });
   },
 };

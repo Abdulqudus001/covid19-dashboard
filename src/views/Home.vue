@@ -4,7 +4,7 @@
       <v-flex sm12 md2 class="mx-2 my-2">
         <stats-card
           icon="mdi-alert-outline"
-          :count="worldStats.cases"
+          :count="getWorldData.cases"
           name="Total cases"
           type="infected"
         />
@@ -12,7 +12,7 @@
       <v-flex sm12 md2 class="mx-2 my-2">
         <stats-card
           icon="mdi-alert-octagon-outline"
-          :count="worldStats.cases"
+          :count="getWorldData.deaths"
           name="Total cases"
           type="deaths"
         />
@@ -20,7 +20,7 @@
       <v-flex sm12 md2 class="mx-2 my-2">
         <stats-card
           icon="mdi-thumb-up-outline"
-          :count="worldStats.cases"
+          :count="getWorldData.recovered"
           name="Total cases"
           type="recovered"
         />
@@ -30,6 +30,7 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 import StatsCard from '@/components/statsCard.vue';
 
 export default {
@@ -41,6 +42,14 @@ export default {
     },
   }),
   components: { StatsCard },
+  mounted() {
+    this.$store.dispatch('fetchWorldData');
+  },
+  computed: {
+    ...mapGetters([
+      'getWorldData',
+    ]),
+  },
 };
 </script>
 
