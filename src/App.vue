@@ -46,4 +46,9 @@ export default {
 
 <style lang="scss">
   @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+  .max-width {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto !important;
+  }
 </style>

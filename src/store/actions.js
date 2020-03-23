@@ -11,4 +11,9 @@ export default {
       commit('updateWorldDataToday', res.data);
     });
   },
+  fetchNewCasesTrends({ commit }) {
+    Vue.axios.get('https://pomber.github.io/covid19/timeseries.json').then((res) => {
+      commit('updateNewCaseTrend', res.data);
+    });
+  },
 };

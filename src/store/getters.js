@@ -5,4 +5,7 @@ export default {
   getTodayWorldData(state) {
     return state.worldDataToday;
   },
+  getCaseChangesChartData(state) {
+    return state.caseChangesChartData;
+  },
 };

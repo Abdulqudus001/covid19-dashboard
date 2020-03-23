@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout justify-center row wrap>
+    <v-layout justify-space-between row wrap class="max-width">
       <v-flex sm12 md2 class="mx-2 my-2">
         <stats-card
           icon="mdi-alert-outline"
@@ -42,6 +42,9 @@
         />
       </v-flex>
     </v-layout>
+    <v-card color="header" class="max-width chart-round">
+      <highcharts :options="changeChartBGColor"/>
+    </v-card>
   </v-container>
 </template>
 
@@ -61,11 +64,19 @@ export default {
     ...mapGetters([
       'getWorldData',
       'getTodayWorldData',
+      'getCaseChangesChartData',
     ]),
+    changeChartBGColor() {
+      const chartData = { ...this.getCaseChangesChartData };
+      chartData.chart.backgroundColor = this.$vuetify.header;
+      return chartData;
+    },
   },
 };
 </script>
 
 <style lang="scss">
-
+  .chart-round {
+    border-radius: 12px !important;
+  }
 </style>
