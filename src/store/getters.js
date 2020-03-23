@@ -8,4 +8,7 @@ export default {
   getCaseChangesChartData(state) {
     return state.caseChangesChartData;
   },
+  getCaseChangesLineData(state) {
+    return state.caseChangesLineData;
+  },
 };

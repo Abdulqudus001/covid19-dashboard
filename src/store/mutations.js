@@ -23,6 +23,14 @@ export default {
       }, {});
       return Object.entries(cases)[0];
     });
+
+    const casesCount = casesTrend.map((el) => el[1]);
+    const casesLabel = casesTrend.map((el) => el[0]);
+
+    state.caseChangesLineData.series[0].data = casesCount;
+    state.caseChangesLineData.xAxis.categories = casesLabel;
+    console.log(state.caseChangesLineData);
+
     state.caseChangesChartData.series[0].data = casesTrend;
   },
 };

@@ -43,7 +43,31 @@
       </v-flex>
     </v-layout>
     <v-card color="header" class="max-width chart-round">
-      <highcharts :options="changeChartBGColor"/>
+      <v-card-title>
+        <v-layout
+          justify-end
+          row
+        >
+          <button
+            @click="isChart = true"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            isChart ? 'selected' : '']"
+          >
+            <v-icon>mdi-poll</v-icon>
+          </button>
+          <button
+            @click="isChart = false"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            !isChart ? 'selected' : '']"
+          >
+            <v-icon>mdi-chart-line-variant</v-icon>
+          </button>
+        </v-layout>
+      </v-card-title>
+      <highcharts v-show="isChart" :options="changeChartBGColor(getCaseChangesChartData)"/>
+      <highcharts v-show="!isChart" :options="changeChartBGColor(getCaseChangesLineData)"/>
     </v-card>
   </v-container>
 </template>
@@ -54,6 +78,7 @@ import StatsCard from '@/components/statsCard.vue';
 
 export default {
   data: () => ({
+    isChart: true,
   }),
   components: { StatsCard },
   mounted() {
@@ -66,9 +91,12 @@ export default {
       'getWorldData',
       'getTodayWorldData',
       'getCaseChangesChartData',
+      'getCaseChangesLineData',
     ]),
-    changeChartBGColor() {
-      const chartData = { ...this.getCaseChangesChartData };
+  },
+  methods: {
+    changeChartBGColor(data) {
+      const chartData = { ...data };
       chartData.chart.backgroundColor = this.$vuetify.header;
       return chartData;
     },
@@ -79,5 +107,22 @@ export default {
 <style lang="scss">
   .chart-round {
     border-radius: 12px !important;
+  }
+
+  .chart-action {
+    padding: 3px 9px;
+    border-radius: 4px;
+    &-light {
+      border: 1px solid #10163a;
+    }
+    &-dark {
+      border: 1px solid white;
+    }
+    &:hover, &.selected {
+      background-color: rgba(81, 85, 114, 0.335);
+      i {
+        color: #6c718a;
+      }
+    }
   }
 </style>
