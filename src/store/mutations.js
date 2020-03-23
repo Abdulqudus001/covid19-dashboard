@@ -29,7 +29,6 @@ export default {
 
     state.caseChangesLineData.series[0].data = casesCount;
     state.caseChangesLineData.xAxis.categories = casesLabel;
-    console.log(state.caseChangesLineData);
 
     state.caseChangesChartData.series[0].data = casesTrend;
   },
