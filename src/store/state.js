@@ -1,7 +1,11 @@
 export default {
   worldData: {
-    cases: 341524,
-    deaths: 14747,
-    recovered: 99040,
+    cases: 0,
+    deaths: 0,
+    recovered: 0,
+  },
+  worldDataToday: {
+    cases: 0,
+    deaths: 0,
   },
 };

@@ -25,6 +25,22 @@
           type="recovered"
         />
       </v-flex>
+      <v-flex sm12 md2 class="mx-2 my-2">
+        <stats-card
+          icon="mdi-alert-outline"
+          :count="getTodayWorldData.cases"
+          name="People infected today"
+          type="infected"
+        />
+      </v-flex>
+      <v-flex sm12 md2 class="mx-2 my-2">
+        <stats-card
+          icon="mdi-alert-octagon-outline"
+          :count="getTodayWorldData.deaths"
+          name="Deaths today"
+          type="deaths"
+        />
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
@@ -35,19 +51,16 @@ import StatsCard from '@/components/statsCard.vue';
 
 export default {
   data: () => ({
-    worldStats: {
-      cases: 319010,
-      deaths: 13685,
-      recovered: 96006,
-    },
   }),
   components: { StatsCard },
   mounted() {
     this.$store.dispatch('fetchWorldData');
+    this.$store.dispatch('fetchWorldDataToday');
   },
   computed: {
     ...mapGetters([
       'getWorldData',
+      'getTodayWorldData',
     ]),
   },
 };

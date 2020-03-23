@@ -44,15 +44,16 @@ export default {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     p {
       margin: 10px 0;
+      opacity: 0.8;
     }
 
     p:last-child {
-      opacity: 0.7;
-      font-size: 1.1rem;
+      font-size: 0.95rem;
     }
 
     &-count {
       font-size: 1.3rem;
+      font-weight: bold;
       font-family: 'Bitter', serif;
     }
 
