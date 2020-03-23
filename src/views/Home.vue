@@ -5,7 +5,7 @@
         <stats-card
           icon="mdi-alert-outline"
           :count="getWorldData.cases"
-          name="Total cases"
+          name="Total people infected"
           type="infected"
         />
       </v-flex>
@@ -13,7 +13,7 @@
         <stats-card
           icon="mdi-alert-octagon-outline"
           :count="getWorldData.deaths"
-          name="Total cases"
+          name="Total deaths"
           type="deaths"
         />
       </v-flex>
@@ -21,7 +21,7 @@
         <stats-card
           icon="mdi-thumb-up-outline"
           :count="getWorldData.recovered"
-          name="Total cases"
+          name="Total people recovered"
           type="recovered"
         />
       </v-flex>

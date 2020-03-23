@@ -1,7 +1,7 @@
 <template>
   <div class="stats" :style="{background: $vuetify.theme.themes[theme].header}">
     <v-icon :class="type">{{ icon }}</v-icon>
-    <p>{{ count }}</p>
+    <p class="stats-count">{{ count }}</p>
     <p>{{ name }}</p>
   </div>
 </template>
@@ -44,6 +44,16 @@ export default {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     p {
       margin: 10px 0;
+    }
+
+    p:last-child {
+      opacity: 0.7;
+      font-size: 1.1rem;
+    }
+
+    &-count {
+      font-size: 1.3rem;
+      font-family: 'Bitter', serif;
     }
 
     i {
