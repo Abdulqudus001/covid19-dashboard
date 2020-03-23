@@ -2,7 +2,7 @@ import Vue from 'vue';
 
 export default {
   fetchWorldData({ commit }) {
-    Vue.axios.get('https://coronavirus-19-api.herokuapp.com/all').then((res) => {
+    Vue.axios.get('https://corona.lmao.ninja/all').then((res) => {
       commit('updateWorldData', res.data);
     });
   },
@@ -12,8 +12,9 @@ export default {
     });
   },
   fetchNewCasesTrends({ commit }) {
-    Vue.axios.get('https://pomber.github.io/covid19/timeseries.json').then((res) => {
-      commit('updateNewCaseTrend', res.data);
+    Vue.axios.get('https://corona.lmao.ninja/historical').then((res) => {
+      const cases = res.data.map((data) => data.timeline.cases);
+      commit('updateNewCaseTrend', cases);
     });
   },
 };

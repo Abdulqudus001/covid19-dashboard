@@ -59,6 +59,7 @@ export default {
   mounted() {
     this.$store.dispatch('fetchWorldData');
     this.$store.dispatch('fetchWorldDataToday');
+    this.$store.dispatch('fetchNewCasesTrends');
   },
   computed: {
     ...mapGetters([

@@ -13,4 +13,16 @@ export default {
       deaths: casesToday[1],
     };
   },
+  updateNewCaseTrend(state, payload) {
+    const casesTrend = Object.keys(payload[0]).map((el) => {
+      let count = 0;
+      const cases = payload.reduce((acc, element) => {
+        count += parseInt(element[el], 10) || 0;
+        acc[el] = count;
+        return acc;
+      }, {});
+      return Object.entries(cases)[0];
+    });
+    state.caseChangesChartData.series[0].data = casesTrend;
+  },
 };
