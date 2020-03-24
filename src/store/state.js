@@ -141,7 +141,7 @@ export default {
       enabled: true,
     },
     tooltip: {
-      pointFormat: '<b>{point.y}</b>',
+      pointFormat: '<b>Cases on {point.name}</b>: <b>{point.y}</b>',
     },
     series: [{
       name: 'Reported Deaths',
@@ -194,6 +194,100 @@ export default {
       name: 'Reported Deaths',
       data: [],
       color: '#cf270a',
+    }],
+  },
+  recoveryChangesChartData: {
+    chart: {
+      type: 'column',
+    },
+    title: {
+      text: 'Reported Recoveries Per Day',
+      style: {
+        color: '',
+      },
+    },
+    subtitle: {
+      text: 'Data source: <a href="https://corona.lmao.ninja/historical">Here</a>',
+      style: {
+        color: '',
+      },
+    },
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
+      type: 'category',
+      labels: {
+        rotation: -45,
+        style: {
+          fontSize: '13px',
+          fontFamily: 'Verdana, sans-serif',
+        },
+      },
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Population',
+      },
+    },
+    legend: {
+      enabled: true,
+    },
+    tooltip: {
+      pointFormat: '<b>Cases on {point.name}</b>: <b>{point.y}</b>',
+    },
+    series: [{
+      name: 'Reported Recoveries',
+      data: [],
+      color: '#28C76F',
+    }],
+  },
+  recoveryChangesLineData: {
+    chart: {
+      type: 'line',
+    },
+    title: {
+      text: 'Reported Recoveries Per Day',
+      style: {
+        color: '',
+      },
+    },
+    subtitle: {
+      text: 'Data source: <a href="https://corona.lmao.ninja/historical">Here</a>',
+      style: {
+        color: '',
+      },
+    },
+    credits: {
+      enabled: false,
+    },
+    xAxis: {
+      type: 'category',
+      labels: {
+        rotation: -45,
+        style: {
+          fontSize: '13px',
+          fontFamily: 'Verdana, sans-serif',
+        },
+      },
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Population',
+      },
+    },
+    legend: {
+      enabled: true,
+    },
+    tooltip: {
+      pointFormat: '<b>{point.y}</b>',
+    },
+    series: [{
+      name: 'Reported Recoveries',
+      data: [],
+      color: '#28C76F',
     }],
   },
   countryStatesCases: [],

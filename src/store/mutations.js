@@ -51,6 +51,25 @@ export default {
 
     state.deathChangesChartData.series[0].data = deathTrend;
   },
+  updateNewRecoveredTrend(state, payload) {
+    const recoveredTrend = Object.keys(payload[0]).map((el) => {
+      let count = 0;
+      const recoveries = payload.reduce((acc, element) => {
+        count += parseInt(element[el], 10) || 0;
+        acc[el] = count;
+        return acc;
+      }, {});
+      return Object.entries(recoveries)[0];
+    });
+
+    const recoveriesCount = recoveredTrend.map((el) => el[1]);
+    const recoveriesLabel = recoveredTrend.map((el) => el[0]);
+
+    state.recoveryChangesLineData.series[0].data = recoveriesCount;
+    state.recoveryChangesLineData.xAxis.categories = recoveriesLabel;
+
+    state.recoveryChangesChartData.series[0].data = recoveredTrend;
+  },
   updateCountryStatesCases(state, payload) {
     console.log(payload);
     state.countryStatesCases = payload;

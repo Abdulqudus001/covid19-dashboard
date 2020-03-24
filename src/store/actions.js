@@ -13,10 +13,13 @@ export default {
   },
   fetchNewCasesTrends({ commit }) {
     Vue.axios.get('https://corona.lmao.ninja/historical').then((res) => {
+      console.log(res.data);
       const cases = res.data.map((data) => data.timeline.cases);
       const deaths = res.data.map((data) => data.timeline.deaths);
+      const recoveries = res.data.map((data) => data.timeline.recovered);
       commit('updateNewDeathTrend', deaths);
       commit('updateNewCaseTrend', cases);
+      commit('updateNewRecoveredTrend', recoveries);
     });
   },
   updateCountries({ commit }, payload) {

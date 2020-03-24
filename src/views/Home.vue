@@ -96,6 +96,33 @@
       <highcharts v-show="isChartTwo" :options="changeChartBGColor(getDeathChangesChartData)"/>
       <highcharts v-show="!isChartTwo" :options="changeChartBGColor(getDeathChangesLineData)"/>
     </v-card>
+    <v-card color="header" class="max-width my-4 chart-round">
+      <v-card-title>
+        <v-layout
+          justify-end
+          row
+        >
+          <button
+            @click="isChartThree = true"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            isChartThree ? 'selected' : '']"
+          >
+            <v-icon>mdi-poll</v-icon>
+          </button>
+          <button
+            @click="isChartThree = false"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            !isChartThree ? 'selected' : '']"
+          >
+            <v-icon>mdi-chart-line-variant</v-icon>
+          </button>
+        </v-layout>
+      </v-card-title>
+      <highcharts v-show="isChartThree" :options="changeChartBGColor(getRecoveryChangesChartData)"/>
+      <highcharts v-show="!isChartThree" :options="changeChartBGColor(getRecoveryChangesLineData)"/>
+    </v-card>
   </v-container>
 </template>
 
@@ -107,6 +134,7 @@ export default {
   data: () => ({
     isChart: true,
     isChartTwo: true,
+    isChartThree: true,
   }),
   components: { StatsCard },
   mounted() {
@@ -124,6 +152,8 @@ export default {
       'getCountryStatesCases',
       'getDeathChangesChartData',
       'getDeathChangesLineData',
+      'getRecoveryChangesChartData',
+      'getRecoveryChangesLineData',
     ]),
   },
   sockets: {
