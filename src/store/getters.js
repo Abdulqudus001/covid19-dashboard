@@ -26,4 +26,7 @@ export default {
   getCountryStatesCases(state) {
     return state.countryStatesCases;
   },
+  getCountries(state) {
+    return state.countries;
+  },
 };

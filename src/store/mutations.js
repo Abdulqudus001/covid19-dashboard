@@ -71,7 +71,9 @@ export default {
     state.recoveryChangesChartData.series[0].data = recoveredTrend;
   },
   updateCountryStatesCases(state, payload) {
-    console.log(payload);
     state.countryStatesCases = payload;
+  },
+  updateCountries(state, payload) {
+    state.countries = payload;
   },
 };

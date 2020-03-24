@@ -291,4 +291,5 @@ export default {
     }],
   },
   countryStatesCases: [],
+  countries: [],
 };

@@ -30,4 +30,9 @@ export default {
       commit('updateCountryStatesCases', res.data);
     });
   },
+  getCountries({ commit }) {
+    Vue.axios.get('https://restcountries.eu/rest/v2/all').then((res) => {
+      commit('updateCountries', res.data);
+    });
+  },
 };
