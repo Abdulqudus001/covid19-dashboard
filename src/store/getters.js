@@ -11,4 +11,7 @@ export default {
   getCaseChangesLineData(state) {
     return state.caseChangesLineData;
   },
+  getCountryStatesCases(state) {
+    return state.countryStatesCases;
+  },
 };

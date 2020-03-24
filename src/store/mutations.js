@@ -32,4 +32,8 @@ export default {
 
     state.caseChangesChartData.series[0].data = casesTrend;
   },
+  updateCountryStatesCases(state, payload) {
+    console.log(payload);
+    state.countryStatesCases = payload;
+  },
 };

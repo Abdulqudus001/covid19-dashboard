@@ -85,6 +85,7 @@ export default {
     this.$store.dispatch('fetchWorldData');
     this.$store.dispatch('fetchWorldDataToday');
     this.$store.dispatch('fetchNewCasesTrends');
+    this.$store.dispatch('fetchCountryStatesCases');
   },
   computed: {
     ...mapGetters([
@@ -92,7 +93,16 @@ export default {
       'getTodayWorldData',
       'getCaseChangesChartData',
       'getCaseChangesLineData',
+      'getCountryStatesCases',
     ]),
+  },
+  sockets: {
+    connect() {
+      console.log('Connected successfully');
+    },
+    countries(data) {
+      this.$store.dispatch('updateCountries', data);
+    },
   },
   methods: {
     changeChartBGColor(data) {
