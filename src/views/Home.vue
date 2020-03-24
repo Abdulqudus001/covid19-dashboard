@@ -158,7 +158,7 @@ export default {
   },
   sockets: {
     connect() {
-      console.log('Connected successfully');
+      // console.log('Connected successfully');
     },
     countries(data) {
       this.$store.dispatch('updateCountries', data);
