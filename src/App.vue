@@ -4,10 +4,21 @@
     :style="{background: $vuetify.theme.themes[theme].background}"
   >
     <v-app-bar app color="header">
-      <h1>COVID19</h1>
+      <a
+        href="/"
+        class="link"
+        :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
+        color="primary"
+      >
+        <h1>COVID19</h1>
+      </a>
 
       <v-spacer></v-spacer>
-
+      <a
+        href="#/countries"
+        class="link"
+        :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
+      >Countries</a>
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark" v-on="on">
@@ -50,5 +61,15 @@ export default {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto !important;
+  }
+
+  .link {
+    text-decoration: none;
+    &-dark {
+      color: #fff !important;
+    }
+    &-light {
+      color: #10163a !important;
+    }
   }
 </style>

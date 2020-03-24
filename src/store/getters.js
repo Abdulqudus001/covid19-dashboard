@@ -11,6 +11,12 @@ export default {
   getCaseChangesLineData(state) {
     return state.caseChangesLineData;
   },
+  getDeathChangesChartData(state) {
+    return state.deathChangesChartData;
+  },
+  getDeathChangesLineData(state) {
+    return state.deathChangesLineData;
+  },
   getCountryStatesCases(state) {
     return state.countryStatesCases;
   },

@@ -42,7 +42,7 @@
         />
       </v-flex>
     </v-layout>
-    <v-card color="header" class="max-width chart-round">
+    <v-card color="header" class="max-width my-4 chart-round">
       <v-card-title>
         <v-layout
           justify-end
@@ -69,6 +69,33 @@
       <highcharts v-show="isChart" :options="changeChartBGColor(getCaseChangesChartData)"/>
       <highcharts v-show="!isChart" :options="changeChartBGColor(getCaseChangesLineData)"/>
     </v-card>
+    <v-card color="header" class="max-width my-4 chart-round">
+      <v-card-title>
+        <v-layout
+          justify-end
+          row
+        >
+          <button
+            @click="isChartTwo = true"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            isChartTwo ? 'selected' : '']"
+          >
+            <v-icon>mdi-poll</v-icon>
+          </button>
+          <button
+            @click="isChartTwo = false"
+            class="chart-action"
+            :class="[$vuetify.theme.dark ? 'chart-action-dark' : 'chart-action-light',
+            !isChartTwo ? 'selected' : '']"
+          >
+            <v-icon>mdi-chart-line-variant</v-icon>
+          </button>
+        </v-layout>
+      </v-card-title>
+      <highcharts v-show="isChartTwo" :options="changeChartBGColor(getDeathChangesChartData)"/>
+      <highcharts v-show="!isChartTwo" :options="changeChartBGColor(getDeathChangesLineData)"/>
+    </v-card>
   </v-container>
 </template>
 
@@ -79,6 +106,7 @@ import StatsCard from '@/components/statsCard.vue';
 export default {
   data: () => ({
     isChart: true,
+    isChartTwo: true,
   }),
   components: { StatsCard },
   mounted() {
@@ -94,6 +122,8 @@ export default {
       'getCaseChangesChartData',
       'getCaseChangesLineData',
       'getCountryStatesCases',
+      'getDeathChangesChartData',
+      'getDeathChangesLineData',
     ]),
   },
   sockets: {
@@ -107,6 +137,9 @@ export default {
   methods: {
     changeChartBGColor(data) {
       const chartData = { ...data };
+      const color = this.$vuetify.theme.dark ? '#fff' : '#10163a';
+      chartData.title.style.color = color;
+      chartData.subtitle.style.color = color;
       chartData.chart.backgroundColor = this.$vuetify.header;
       return chartData;
     },
