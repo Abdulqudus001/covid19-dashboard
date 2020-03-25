@@ -31,7 +31,7 @@
           </v-img>
           <v-card-title>
             <v-layout>
-              {{ country.name }}
+              <span style="word-break: break-word">{{ country.name }}</span>
               <v-spacer />
               <v-icon>mdi-open-in-new</v-icon>
             </v-layout>
