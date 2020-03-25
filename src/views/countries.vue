@@ -33,7 +33,13 @@
             <v-layout>
               <span style="word-break: break-word">{{ country.name }}</span>
               <v-spacer />
-              <v-icon>mdi-open-in-new</v-icon>
+              <v-btn
+                icon
+                :to="'/country/'+country.name.toLowerCase()"
+                v-if="country.cases"
+              >
+                <v-icon>mdi-open-in-new</v-icon>
+              </v-btn>
             </v-layout>
           </v-card-title>
           <v-card-subtitle>
