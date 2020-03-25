@@ -1,8 +1,11 @@
+// import Vue from 'vue';
+
 export default {
   updateWorldData(state, payload) {
     state.worldData = payload;
   },
   updateWorldDataToday(state, payload) {
+    state.allCountryCases = payload;
     const casesToday = payload.reduce((acc, el) => {
       acc[0] += el.todayCases;
       acc[1] += el.todayDeaths;
@@ -73,7 +76,7 @@ export default {
   updateCountryStatesCases(state, payload) {
     state.countryStatesCases = payload;
   },
-  updateCountries(state, payload) {
+  async updateCountries(state, payload) {
     state.countries = payload;
   },
 };

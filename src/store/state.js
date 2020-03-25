@@ -4,6 +4,7 @@ export default {
     deaths: 0,
     recovered: 0,
   },
+  allCountryCases: [],
   worldDataToday: {
     cases: 0,
     deaths: 0,

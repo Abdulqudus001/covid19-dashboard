@@ -29,4 +29,7 @@ export default {
   getCountries(state) {
     return state.countries;
   },
+  getAllCountryCases(state) {
+    return state.allCountryCases;
+  },
 };

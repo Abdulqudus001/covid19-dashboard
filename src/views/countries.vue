@@ -1,14 +1,14 @@
 <template>
   <v-container>
     <v-layout justify-space-between wrap>
-      <v-flex sm12 md2>
-        <v-select
-          :items="items"
-          v-model="continent"
-          label="Solo field"
+      <v-flex sm12 md3>
+        <v-text-field
           solo
+          label="Search country"
+          prepend-inner-icon="mdi-magnify"
+          v-model="country"
           background-color="header"
-        ></v-select>
+        ></v-text-field>
       </v-flex>
       <v-flex sm12 md3>
         <v-select
@@ -20,16 +20,36 @@
         ></v-select>
       </v-flex>
     </v-layout>
-    <v-layout wrap>
-      <v-flex v-for="country in getCountries" :key="country.name">
-        <v-card max-width="300" class="mt-5">
+    <v-layout wrap justify-center>
+      <v-flex v-for="country in filtered" :key="country.name" md3>
+        <v-card class="mt-5 mx-auto" max-width="90%" color="header">
           <v-img
-            height="200px"
+            height="180px"
             class="align-end white--text"
             :src="country.flag"
           >
-            <v-card-title>{{ country.name }}</v-card-title>
           </v-img>
+          <v-card-title>
+            <v-layout>
+              {{ country.name }}
+              <v-spacer />
+              <v-icon>mdi-open-in-new</v-icon>
+            </v-layout>
+          </v-card-title>
+          <v-card-subtitle>
+            <div>
+              <b>Cases: </b>
+              {{ country.cases || 'Not available' }}
+            </div>
+            <div>
+              <b>Deaths: </b>
+              {{ country.deaths || 'Not available' }}
+            </div>
+            <div>
+              <b>Recoveries: </b>
+              {{ country.recovered || 'Not available' }}
+            </div>
+          </v-card-subtitle>
         </v-card>
       </v-flex>
     </v-layout>
@@ -41,17 +61,33 @@ import { mapGetters } from 'vuex';
 
 export default {
   data: () => ({
-    userLocation: '',
     continent: '',
+    country: '',
     items: ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'],
   }),
   computed: {
     ...mapGetters([
       'getCountries',
+      'getAllCountryCases',
     ]),
+    getCountryCaseDetails() {
+      const detailedCountryCases = this.getCountries.map((el) => {
+        const country = this.getAllCountryCases.find((element) => element.country === el.name);
+        return { ...el, ...country };
+      });
+      console.log(detailedCountryCases);
+      return detailedCountryCases;
+    },
+    filtered() {
+      return this.getCountryCaseDetails.filter((el) => {
+        const name = el.name.toLowerCase();
+        return name.includes(this.country.toLowerCase());
+      });
+    },
   },
   mounted() {
     this.$store.dispatch('getCountries');
+    this.$store.dispatch('fetchWorldDataToday');
   },
 };
 </script>

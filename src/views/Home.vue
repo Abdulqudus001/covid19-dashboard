@@ -142,6 +142,7 @@ export default {
     this.$store.dispatch('fetchWorldDataToday');
     this.$store.dispatch('fetchNewCasesTrends');
     this.$store.dispatch('fetchCountryStatesCases');
+    this.$store.dispatch('getCountries');
   },
   computed: {
     ...mapGetters([
