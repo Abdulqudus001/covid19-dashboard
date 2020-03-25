@@ -142,7 +142,7 @@ export default {
       enabled: true,
     },
     tooltip: {
-      pointFormat: '<b>Cases on {point.name}</b>: <b>{point.y}</b>',
+      pointFormat: '<b>Deaths on {point.name}</b>: <b>{point.y}</b>',
     },
     series: [{
       name: 'Reported Deaths',
@@ -236,7 +236,7 @@ export default {
       enabled: true,
     },
     tooltip: {
-      pointFormat: '<b>Cases on {point.name}</b>: <b>{point.y}</b>',
+      pointFormat: '<b>Recoveries on {point.name}</b>: <b>{point.y}</b>',
     },
     series: [{
       name: 'Reported Recoveries',

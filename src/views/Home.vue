@@ -159,7 +159,7 @@ export default {
   },
   sockets: {
     connect() {
-      console.log('Connected successfully');
+      // console.log('Connected successfully');
     },
     countries(data) {
       this.$store.dispatch('updateCountries', data);
@@ -179,24 +179,4 @@ export default {
 </script>
 
 <style lang="scss">
-  .chart-round {
-    border-radius: 12px !important;
-  }
-
-  .chart-action {
-    padding: 3px 9px;
-    border-radius: 4px;
-    &-light {
-      border: 1px solid #10163a;
-    }
-    &-dark {
-      border: 1px solid white;
-    }
-    &:hover, &.selected {
-      background-color: rgba(81, 85, 114, 0.335);
-      i {
-        color: #6c718a;
-      }
-    }
-  }
 </style>
