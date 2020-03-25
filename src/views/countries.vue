@@ -35,7 +35,7 @@
               <v-spacer />
               <v-btn
                 icon
-                :to="'/country/'+country.name.toLowerCase()"
+                :to="'/countries/'+country.name.toLowerCase()"
                 v-if="country.cases"
               >
                 <v-icon>mdi-open-in-new</v-icon>
