@@ -63,7 +63,7 @@ export default {
   data: () => ({
     continent: '',
     country: '',
-    items: ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'],
+    items: ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania', 'World'],
   }),
   computed: {
     ...mapGetters([
@@ -75,13 +75,16 @@ export default {
         const country = this.getAllCountryCases.find((element) => element.country === el.name);
         return { ...el, ...country };
       });
-      console.log(detailedCountryCases);
       return detailedCountryCases;
     },
     filtered() {
       return this.getCountryCaseDetails.filter((el) => {
         const name = el.name.toLowerCase();
-        return name.includes(this.country.toLowerCase());
+        const region = el.region.toLowerCase();
+        if (this.continent === 'World') {
+          return name.includes(this.country.toLowerCase());
+        } return name.includes(this.country.toLowerCase())
+          && region.includes(this.continent.toLowerCase());
       });
     },
   },
