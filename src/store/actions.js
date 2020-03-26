@@ -1,5 +1,22 @@
 import Vue from 'vue';
 
+const computeData = (countries, data, type) => {
+  const output = countries.map((country) => {
+    const countryCases = data[country].reduce((acc, el) => {
+      if (type === 'cases') {
+        acc[el.date] = el.confirmed;
+      } else if (type === 'deaths') {
+        acc[el.date] = el.deaths;
+      } else {
+        acc[el.date] = el.recovered;
+      }
+      return acc;
+    }, {});
+    return countryCases;
+  });
+  return output;
+};
+
 export default {
   fetchWorldData({ commit }) {
     Vue.axios.get('https://corona.lmao.ninja/all').then((res) => {
@@ -12,14 +29,23 @@ export default {
     });
   },
   fetchNewCasesTrends({ commit }) {
-    Vue.axios.get('https://corona.lmao.ninja/historical').then((res) => {
-      const cases = res.data.map((data) => data.timeline.cases);
-      const deaths = res.data.map((data) => data.timeline.deaths);
-      const recoveries = res.data.map((data) => data.timeline.recovered);
-      commit('updateNewDeathTrend', deaths);
+    Vue.axios.get('https://pomber.github.io/covid19/timeseries.json').then(({ data }) => {
+      const countries = Object.keys(data);
+      const cases = computeData(countries, data, 'cases');
+      const deaths = computeData(countries, data, 'deaths');
+      const recovered = computeData(countries, data, 'recovered');
       commit('updateNewCaseTrend', cases);
-      commit('updateNewRecoveredTrend', recoveries);
+      commit('updateNewDeathTrend', deaths);
+      commit('updateNewRecoveredTrend', recovered);
     });
+    // Vue.axios.get('https://corona.lmao.ninja/v2/historical').then((res) => {
+    // const cases = res.data.map((data) => data.timeline.cases);
+    // const deaths = res.data.map((data) => data.timeline.deaths);
+    // const recoveries = res.data.map((data) => data.timeline.recovered);
+    // commit('updateNewCaseTrend', cases);
+    // commit('updateNewDeathTrend', deaths);
+    // commit('updateNewRecoveredTrend', recoveries);
+    // });
   },
   updateCountries({ commit }, payload) {
     commit('updateCountriesState', payload);
