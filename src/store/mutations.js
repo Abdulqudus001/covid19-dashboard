@@ -79,7 +79,7 @@ export default {
   async updateCountries(state, payload) {
     state.countries = payload;
   },
-  updateNews(state, payload) {
+  updateNews(state, [payload, type]) {
     const filteredArticles = payload.articles.filter((el, index, self) => {
       const exists = index === self.findIndex((t) => (
         t.title === el.title
@@ -89,7 +89,9 @@ export default {
     if (state.news.length > 0) {
       const lastNewsItem = state.news[state.news.length - 1].title;
       if (lastNewsItem !== filteredArticles[filteredArticles.length - 1].title) {
-        state.news.push(...filteredArticles);
+        if (!type) {
+          state.news.push(...filteredArticles);
+        }
       }
     } else {
       state.news.push(...filteredArticles);

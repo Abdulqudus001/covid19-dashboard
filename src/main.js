@@ -3,6 +3,7 @@ import axios from 'axios';
 import VueAxios from 'vue-axios';
 import Highcharts from 'highcharts';
 import VueHighcharts from 'vue-highcharts';
+import VueDebounce from 'vue-debounce';
 // import socketio from 'socket.io-client';
 // import VueSocketio from 'vue-socket.io';
 import loadMap from 'highcharts/modules/map';
@@ -19,6 +20,7 @@ loadMap(Highcharts);
 // Vue.use(new VueSocketio({
 //   connection: 'http://covid-19-countries.herokuapp.com',
 // }));
+Vue.use(VueDebounce);
 Vue.use(VueAxios, axios);
 Vue.use(VueHighcharts, { Highcharts });
 

@@ -9324,6 +9324,11 @@ vue-cli-plugin-vuetify@^2.0.5:
     semver "^7.1.2"
     shelljs "^0.8.3"
 
+vue-debounce@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/vue-debounce/-/vue-debounce-2.5.1.tgz#9f8998feab89c08752156130c7fa557fcc4a930f"
+  integrity sha512-pZF3RfJXJaqgOlc1S+OwW1gVznjxmIeWX3bfW/HsUWsX0AYJJ7sF9w3OyFOU6e3k+yGxRH8Gi6XzPhvU3aLlgQ==
+
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.0.0.tgz#a4ed2669f87179dedd06afdd8736acbb3a3864d6"

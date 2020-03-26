@@ -64,7 +64,7 @@ export default {
   getLatestNews({ commit }, payload) {
     const newsUrl = `http://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en`;
     Vue.axios.get(newsUrl).then(({ data }) => {
-      commit('updateNews', data);
+      commit('updateNews', [data, payload]);
     });
   },
 };
