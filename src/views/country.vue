@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    {{ computeMapData }}
     <v-layout align-center wrap>
       <h2 class="text-center text-capitalize my-3">Stats for {{ $route.params.country }}</h2>
       <v-spacer />
@@ -50,7 +51,13 @@
         />
       </v-flex>
     </v-layout>
-    <highmaps :options="mapOptions"/>
+    <v-layout wrap>
+      <v-flex sm12 md6>
+        <v-card color="header" class="max-width my-4 chart-round">
+          <highmaps :options="changeChartBGColor(mapOptions)"/>
+        </v-card>
+      </v-flex>
+    </v-layout>
     <v-card color="header" class="max-width my-4 chart-round">
       <v-card-title>
         <v-layout
@@ -134,7 +141,7 @@
 
 <script>
 import StatsCard from '@/components/statsCard.vue';
-// import Vue from 'vue';
+import stringSimilarity from 'string-similarity';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -289,42 +296,60 @@ export default {
     countryData: [],
     mapOptions: {
       chart: {
-        borderWidth: 1,
+        type: 'map',
       },
       title: {
         text: 'Nordic countries',
+        style: {
+          color: '',
+        },
       },
       subtitle: {
-        text: 'Demo of drawing all areas in the map, only highlighting partial data',
+        text: 'Map showing affected areas in the country',
+        style: {
+          color: '',
+        },
       },
       legend: {
+        enabled: true,
+      },
+      credits: {
         enabled: false,
+      },
+      colorAxis: {
+        tickPixelInterval: 100,
+        min: 0,
+        minColor: '#fff',
+        maxColor: '#cf270a',
       },
       series: [{
         name: 'Country',
         mapData: '',
-        data: [
-          ['AF.KT', 1],
-          ['AF.PK', 10],
-        ],
+        data: [],
         keys: ['hasc', 'value'],
         joinBy: 'hasc',
+        states: {
+          hover: {
+            color: '#a4edba',
+          },
+        },
         dataLabels: {
           enabled: true,
           color: '#FFFFFF',
-        },
-        tooltip: {
-          headerFormat: '',
-          pointFormat: '{point.name}',
+          format: '{point.properties.postal}',
         },
       }],
     },
+    countryHasc: '',
+    countryStatesData: '',
   }),
   mounted() {
+    this.mapOptions.title.text = `States in ${this.$route.params.country}`;
     this.$store.dispatch('fetchWorldDataToday');
     this.$store.dispatch('getCountries');
     this.country = this.$route.params.country;
     this.getCountryTimeSeries();
+    this.getCountryStatesData();
   },
   computed: {
     ...mapGetters([
@@ -337,7 +362,6 @@ export default {
         const countryName = el.name.toLowerCase();
         return country === countryName;
       });
-      /* eslint-disable-next-line */
       if (countryData) {
         const mapUrl = this.getMapData(countryData);
         this.fetchMapData(mapUrl);
@@ -351,6 +375,20 @@ export default {
         return country === countryName;
       });
       return countryData;
+    },
+    computeMapData() {
+      if (this.countryHasc && this.countryStatesData) {
+        const mapdata = this.countryHasc.map((hasc) => {
+          const stateData = this.countryStatesData.find((state) => {
+            const similarity = stringSimilarity.compareTwoStrings(hasc.name, state.name);
+            return similarity > 0.85;
+          });
+          return [hasc.hasc, (stateData && stateData.cases) || 0];
+        });
+        /* eslint-disable-next-line */
+        this.mapOptions.series[0].data = mapdata;
+      }
+      return null;
     },
   },
   methods: {
@@ -366,7 +404,6 @@ export default {
     },
     fetchMapData(url) {
       this.axios.get(url).then(({ data }) => {
-        // console.log(data);
         const hasc = data.features.map(({ properties }) => {
           const hascValue = {
             name: properties.name,
@@ -374,7 +411,7 @@ export default {
           };
           return hascValue;
         });
-        console.log(hasc);
+        this.countryHasc = hasc;
         this.mapOptions.series[0].mapData = data;
       });
     },
@@ -412,6 +449,12 @@ export default {
       chartData.subtitle.style.color = color;
       chartData.chart.backgroundColor = this.$vuetify.header;
       return chartData;
+    },
+    getCountryStatesData() {
+      const countryUrl = `http://covid-19-countries.herokuapp.com/countries/${this.country}`;
+      this.axios.get(countryUrl).then(({ data }) => {
+        this.countryStatesData = data[0].states;
+      });
     },
   },
 };

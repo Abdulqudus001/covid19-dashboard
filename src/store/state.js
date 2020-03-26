@@ -41,7 +41,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Cases',
       },
     },
     legend: {
@@ -88,7 +88,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Cases',
       },
     },
     legend: {
@@ -135,7 +135,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Deaths',
       },
     },
     legend: {
@@ -182,7 +182,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Deaths',
       },
     },
     legend: {
@@ -229,7 +229,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Recoveries',
       },
     },
     legend: {
@@ -276,7 +276,7 @@ export default {
     yAxis: {
       min: 0,
       title: {
-        text: 'Population',
+        text: 'Confirmed Recoveries',
       },
     },
     legend: {
