@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import rapidAPIKey from '../../private';
 
 const computeData = (countries, data, type) => {
   const output = countries.map((country) => {
@@ -58,6 +59,12 @@ export default {
   getCountries({ commit }) {
     Vue.axios.get('https://restcountries.eu/rest/v2/all').then((res) => {
       commit('updateCountries', res.data);
+    });
+  },
+  getLatestNews({ commit }, payload) {
+    const newsUrl = `http://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en`;
+    Vue.axios.get(newsUrl).then(({ data }) => {
+      commit('updateNews', data);
     });
   },
 };

@@ -157,14 +157,14 @@ export default {
       'getRecoveryChangesLineData',
     ]),
   },
-  sockets: {
-    connect() {
-      // console.log('Connected successfully');
-    },
-    countries(data) {
-      this.$store.dispatch('updateCountries', data);
-    },
-  },
+  // sockets: {
+  //   connect() {
+  //     // console.log('Connected successfully');
+  //   },
+  //   countries(data) {
+  //     this.$store.dispatch('updateCountries', data);
+  //   },
+  // },
   methods: {
     changeChartBGColor(data) {
       const chartData = { ...data };

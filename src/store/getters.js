@@ -32,4 +32,8 @@ export default {
   getAllCountryCases(state) {
     return state.allCountryCases;
   },
+  getNews(state) {
+    // console.log(state.news);
+    return state.news;
+  },
 };
