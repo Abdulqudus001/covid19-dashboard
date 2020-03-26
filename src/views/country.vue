@@ -498,7 +498,7 @@ export default {
         if (el.recovered) {
           active = [el.date, el.confirmed - (el.deaths + el.recovered)];
         } else {
-          active = [el.date, null];
+          active = [el.date, el.confirmed - (el.deaths)];
         }
         return active;
       });
