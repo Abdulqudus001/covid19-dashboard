@@ -5,11 +5,14 @@ import Highcharts from 'highcharts';
 import VueHighcharts from 'vue-highcharts';
 // import socketio from 'socket.io-client';
 import VueSocketio from 'vue-socket.io';
+import loadMap from 'highcharts/modules/map';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
 import vuetify from './plugins/vuetify';
 import store from './store';
+
+loadMap(Highcharts);
 
 // const socketInstance = socketio('http://localhost:3000');
 

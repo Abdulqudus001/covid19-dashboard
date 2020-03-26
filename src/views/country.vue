@@ -50,6 +50,7 @@
         />
       </v-flex>
     </v-layout>
+    <highmaps :options="mapOptions"/>
     <v-card color="header" class="max-width my-4 chart-round">
       <v-card-title>
         <v-layout
@@ -133,6 +134,7 @@
 
 <script>
 import StatsCard from '@/components/statsCard.vue';
+// import Vue from 'vue';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -142,6 +144,7 @@ export default {
     isChartTwo: false,
     isChartThree: false,
     country: '',
+    countryDetails: '',
     casesChartData: {
       chart: {
         type: 'column',
@@ -284,6 +287,38 @@ export default {
       }],
     },
     countryData: [],
+    mapOptions: {
+      chart: {
+        borderWidth: 1,
+      },
+      title: {
+        text: 'Nordic countries',
+      },
+      subtitle: {
+        text: 'Demo of drawing all areas in the map, only highlighting partial data',
+      },
+      legend: {
+        enabled: false,
+      },
+      series: [{
+        name: 'Country',
+        mapData: '',
+        data: [
+          ['AF.KT', 1],
+          ['AF.PK', 10],
+        ],
+        keys: ['hasc', 'value'],
+        joinBy: 'hasc',
+        dataLabels: {
+          enabled: true,
+          color: '#FFFFFF',
+        },
+        tooltip: {
+          headerFormat: '',
+          pointFormat: '{point.name}',
+        },
+      }],
+    },
   }),
   mounted() {
     this.$store.dispatch('fetchWorldDataToday');
@@ -302,7 +337,10 @@ export default {
         const countryName = el.name.toLowerCase();
         return country === countryName;
       });
+      /* eslint-disable-next-line */
       if (countryData) {
+        const mapUrl = this.getMapData(countryData);
+        this.fetchMapData(mapUrl);
         return countryData.population.toLocaleString();
       } return null;
     },
@@ -316,6 +354,30 @@ export default {
     },
   },
   methods: {
+    getMapData(countryDetails) {
+      if (countryDetails) {
+        const { alpha2Code } = countryDetails;
+        const countryCode = alpha2Code.toLowerCase();
+        const mapUrl = `https://code.highcharts.com/mapdata/countries/${countryCode}/${countryCode}-all.geo.json`;
+        this.fetchMapData(mapUrl);
+        return mapUrl;
+      }
+      return null;
+    },
+    fetchMapData(url) {
+      this.axios.get(url).then(({ data }) => {
+        // console.log(data);
+        const hasc = data.features.map(({ properties }) => {
+          const hascValue = {
+            name: properties.name,
+            hasc: properties.hasc,
+          };
+          return hascValue;
+        });
+        console.log(hasc);
+        this.mapOptions.series[0].mapData = data;
+      });
+    },
     changeChartType(chartType, data) {
       if (data === 'cases') {
         this.casesChartData.chart.type = chartType;
