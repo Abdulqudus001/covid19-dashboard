@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container grid-list-md>
     {{ computeMapData }}
     <v-layout align-center wrap>
       <h2 class="text-center text-capitalize my-3">Stats for {{ $route.params.country }}</h2>
@@ -55,6 +55,11 @@
       <v-flex sm12 md6>
         <v-card color="header" class="max-width my-4 chart-round">
           <highmaps :options="changeChartBGColor(mapOptions)"/>
+        </v-card>
+      </v-flex>
+      <v-flex sm12 md6>
+        <v-card color="header" class="max-width my-4 chart-round">
+          <highcharts :options="changeChartBGColor(activeLineData)"/>
         </v-card>
       </v-flex>
     </v-layout>
@@ -293,6 +298,53 @@ export default {
         color: '#28C76F',
       }],
     },
+    activeLineData: {
+      chart: {
+        type: 'line',
+      },
+      title: {
+        text: 'Active cases Per Day',
+        style: {
+          color: '',
+        },
+      },
+      subtitle: {
+        text: 'Data source: <a href="https://pomber.github.io/covid19/timeseries.json">Here</a>',
+        style: {
+          color: '',
+        },
+      },
+      credits: {
+        enabled: false,
+      },
+      xAxis: {
+        type: 'category',
+        labels: {
+          rotation: -45,
+          style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif',
+          },
+        },
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: 'Population',
+        },
+      },
+      legend: {
+        enabled: true,
+      },
+      tooltip: {
+        pointFormat: '<b>{point.y}</b>',
+      },
+      series: [{
+        name: 'Active Cases',
+        data: [],
+        color: '#28C76F',
+      }],
+    },
     countryData: [],
     mapOptions: {
       chart: {
@@ -309,6 +361,9 @@ export default {
         style: {
           color: '',
         },
+      },
+      mapNavigation: {
+        enabled: true,
       },
       legend: {
         enabled: true,
@@ -438,6 +493,16 @@ export default {
       const casesData = data.map((el) => [el.date, el.confirmed]);
       const deathData = data.map((el) => [el.date, el.deaths]);
       const recoveredData = data.map((el) => [el.date, el.recovered]);
+      const activeCases = data.map((el) => {
+        let active = 0;
+        if (el.recovered) {
+          active = [el.date, el.confirmed - (el.deaths + el.recovered)];
+        } else {
+          active = [el.date, null];
+        }
+        return active;
+      });
+      this.activeLineData.series[0].data = activeCases;
       this.casesChartData.series[0].data = casesData;
       this.deathsChartData.series[0].data = deathData;
       this.recoveriesChartData.series[0].data = recoveredData;
