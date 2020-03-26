@@ -6,14 +6,28 @@
     <v-app-bar app color="header">
       <a
         href="/"
-        class="link"
+        class="link link-img"
         :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
         color="primary"
       >
-        <h1>COVID19</h1>
+        <img
+          v-if="$vuetify.theme.dark"
+          src="./assets/logo-white.png"
+          alt=""
+        >
+        <img
+          v-else
+          src="./assets/logo.png"
+          alt=""
+        >
       </a>
 
       <v-spacer></v-spacer>
+      <a
+        href="#/news"
+        class="link"
+        :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
+      >News</a>
       <a
         href="#/countries"
         class="link"
@@ -63,13 +77,27 @@ export default {
     margin: 0 auto !important;
   }
 
+  .link-img {
+    width: 40px;
+    img {
+      width: 100%;
+    }
+  }
+
   .link {
     text-decoration: none;
+    margin: 0 10px;
     &-dark {
       color: #fff !important;
+      &:hover {
+        color: rgba(255, 255, 255, 0.8) !important;
+      }
     }
     &-light {
       color: #10163a !important;
+      &:hover {
+        color: rgba(0, 0, 0, 0.8) !important;
+      }
     }
   }
   .chart-round {
