@@ -80,6 +80,7 @@ export default {
     state.countries = payload;
   },
   updateNews(state, [payload, type]) {
+    state.newsType = type.trim();
     const filteredArticles = payload.articles.filter((el, index, self) => {
       const exists = index === self.findIndex((t) => (
         t.title === el.title
@@ -91,6 +92,8 @@ export default {
       if (lastNewsItem !== filteredArticles[filteredArticles.length - 1].title) {
         if (!type) {
           state.news.push(...filteredArticles);
+        } else if (type.trim() !== 'covid19') {
+          state.newsInCountry.push(...filteredArticles);
         }
       }
     } else {

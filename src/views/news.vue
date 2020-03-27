@@ -64,7 +64,7 @@ export default {
       return text.length > 57 ? `${text.slice(0, 44)}...` : text;
     },
     fetchStory(e) {
-      this.$store.dispatch('getLatestNews', `covid19 in ${e}`);
+      this.$store.dispatch('getLatestNews', `covid19 ${e}`);
     },
     openNews(url) {
       window.open(url, '_blank');

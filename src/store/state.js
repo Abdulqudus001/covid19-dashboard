@@ -294,4 +294,6 @@ export default {
   countryStatesCases: [],
   countries: [],
   news: [],
+  newsInCountry: [],
+  newsType: '',
 };

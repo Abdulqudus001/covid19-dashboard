@@ -33,7 +33,8 @@ export default {
     return state.allCountryCases;
   },
   getNews(state) {
-    // console.log(state.news);
-    return state.news;
+    if (!state.newsType || state.newsType === 'covid19') {
+      return state.news;
+    } return state.newsInCountry;
   },
 };
