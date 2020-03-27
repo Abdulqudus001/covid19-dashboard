@@ -1,5 +1,6 @@
 import Vue from 'vue';
-import rapidAPIKey from '../../private';
+
+const rapidAPIKey = process.env.VUE_APP_rapidAPIKey;
 
 const computeData = (countries, data, type) => {
   const output = countries.map((country) => {
