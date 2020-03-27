@@ -62,10 +62,14 @@ export default {
       commit('updateCountries', res.data);
     });
   },
-  getLatestNews({ commit }, payload) {
-    const newsUrl = `https://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en`;
+  getLatestNews({ commit }, [page, payload]) {
+    const newsUrl = `https://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en&page=${page}`;
     Vue.axios.get(newsUrl).then(({ data }) => {
       commit('updateNews', [data, payload]);
+      this.dispatch('updateLoaderStatus', false);
     });
+  },
+  updatePageNum({ commit }) {
+    commit('updatePageNum');
   },
 };

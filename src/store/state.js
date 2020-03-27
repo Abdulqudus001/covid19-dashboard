@@ -296,4 +296,5 @@ export default {
   news: [],
   newsInCountry: [],
   newsType: '',
+  pageNum: 1,
 };

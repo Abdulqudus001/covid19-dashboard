@@ -40,6 +40,14 @@
         </v-hover>
       </v-flex>
     </v-layout>
+    <v-layout justify-center>
+      <v-progress-circular
+        :size="80"
+        :color="$vuetify.theme.dark ? '#fff' : '10163a'"
+        :width="8"
+        indeterminate
+      ></v-progress-circular>
+    </v-layout>
   </v-container>
 </template>
 
@@ -52,11 +60,17 @@ export default {
     elevation: 3,
   }),
   created() {
-    this.$store.dispatch('getLatestNews', 'covid19');
+    this.$store.dispatch('getLatestNews', [this.getPageNum, 'covid19']);
+  },
+  mounted() {
+    window.onscroll = (e) => {
+      this.handleScroll(e);
+    };
   },
   computed: {
     ...mapGetters([
       'getNews',
+      'getPageNum',
     ]),
   },
   methods: {
@@ -64,10 +78,21 @@ export default {
       return text.length > 57 ? `${text.slice(0, 44)}...` : text;
     },
     fetchStory(e) {
-      this.$store.dispatch('getLatestNews', `covid19 ${e}`);
+      this.$store.dispatch('getLatestNews', [this.getPageNum, `covid19 ${e}`]);
     },
     openNews(url) {
       window.open(url, '_blank');
+    },
+    handleScroll() {
+      const bottomOfWindow = Math.max(
+        window.pageYOffset,
+        document.documentElement.scrollTop,
+        document.body.scrollTop,
+      ) + window.innerHeight === document.documentElement.offsetHeight;
+      if (bottomOfWindow) {
+        this.$store.dispatch('updatePageNum');
+        this.fetchStory(this.country);
+      }
     },
   },
 };

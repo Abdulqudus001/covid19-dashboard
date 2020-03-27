@@ -90,7 +90,7 @@ export default {
     if (state.news.length > 0) {
       const lastNewsItem = state.news[state.news.length - 1].title;
       if (lastNewsItem !== filteredArticles[filteredArticles.length - 1].title) {
-        if (!type) {
+        if (!type || (type && type.trim() === 'covid19')) {
           state.news.push(...filteredArticles);
         } else if (type.trim() !== 'covid19') {
           state.newsInCountry.push(...filteredArticles);
@@ -99,5 +99,8 @@ export default {
     } else {
       state.news.push(...filteredArticles);
     }
+  },
+  updatePageNum(state) {
+    state.pageNum += 1;
   },
 };

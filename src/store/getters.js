@@ -37,4 +37,10 @@ export default {
       return state.news;
     } return state.newsInCountry;
   },
+  getPageNum(state) {
+    return state.pageNum;
+  },
+  getLoaderStatus(state) {
+    return state.loaderStatus;
+  },
 };
