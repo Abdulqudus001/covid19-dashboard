@@ -162,7 +162,7 @@ export default {
         type: 'column',
       },
       title: {
-        text: 'Reported Cases Per Day',
+        text: 'Reported Cases',
         style: {
           color: '',
         },
@@ -209,7 +209,7 @@ export default {
         type: 'column',
       },
       title: {
-        text: 'Reported Deaths Per Day',
+        text: 'Reported Deaths',
         style: {
           color: '',
         },
@@ -256,7 +256,7 @@ export default {
         type: 'column',
       },
       title: {
-        text: 'Reported Recoveries Per Day',
+        text: 'Reported Recoveries',
         style: {
           color: '',
         },
@@ -303,7 +303,7 @@ export default {
         type: 'line',
       },
       title: {
-        text: 'Active cases Per Day',
+        text: 'Active cases',
         style: {
           color: '',
         },
