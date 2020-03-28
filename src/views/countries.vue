@@ -78,13 +78,15 @@ export default {
     ]),
     getCountryCaseDetails() {
       const detailedCountryCases = this.getCountries.map((el) => {
-        const country = this.getAllCountryCases.find((element) => element.country === el.name);
+        const country = this.getAllCountryCases.find((element) => (
+          element.country === el.name || el.altSpellings.includes(element.country.toUpperCase())
+        ));
         return { ...el, ...country };
       });
       return detailedCountryCases;
     },
     filtered() {
-      return this.getCountryCaseDetails.filter((el) => {
+      const filtered = this.getCountryCaseDetails.filter((el) => {
         const name = el.name.toLowerCase();
         const region = el.region.toLowerCase();
         if (this.continent === 'World') {
@@ -92,6 +94,7 @@ export default {
         } return name.includes(this.country.toLowerCase())
           && region.includes(this.continent.toLowerCase());
       });
+      return filtered;
     },
   },
   mounted() {
