@@ -2726,6 +2726,11 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.2.1:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
+country-flags-svg@^0.2.12:
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/country-flags-svg/-/country-flags-svg-0.2.12.tgz#a2ed3183f2773bfc788f142c362f5e6462f0e661"
+  integrity sha512-zgJWXwsuCSXapi/Kq4ihfgMGTa1PdOUswWrdtLKptYWxbM/Xr4065idEIWMgUK8IrNBdCA6mEwyIC0xEYHS42A==
+
 create-ecdh@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/create-ecdh/-/create-ecdh-4.0.3.tgz#c9111b6f33045c4697f144787f9254cdc77c45ff"
@@ -8775,6 +8780,11 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   integrity sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==
   dependencies:
     has-flag "^4.0.0"
+
+svg-country-flags@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/svg-country-flags/-/svg-country-flags-1.2.7.tgz#3f4c7bcf0603467736eb85fe37fc6932c60ba64b"
+  integrity sha512-23/PTK1CWeFFnL4S7IBI8/vok6uE1qZBZrh6avn5J3XbQmw0NUHpOBRC0HEe7y80YbTOrOqu81IaCC030h74qQ==
 
 svg-tags@^1.0.0:
   version "1.0.0"

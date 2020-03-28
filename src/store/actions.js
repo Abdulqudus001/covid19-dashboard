@@ -60,6 +60,10 @@ export default {
   getCountries({ commit }) {
     Vue.axios.get('https://restcountries.eu/rest/v2/all').then((res) => {
       commit('updateCountries', res.data);
+    }).catch(() => {
+      fetch('/countries.json').then((res) => res.json()).then((data) => {
+        commit('updateCountries', data);
+      });
     });
   },
   getLatestNews({ commit }, [page, payload]) {

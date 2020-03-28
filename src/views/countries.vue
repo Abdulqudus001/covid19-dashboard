@@ -26,7 +26,7 @@
           <v-img
             height="180px"
             class="align-end white--text"
-            :src="country.flag"
+            :src="require(`../assets/svg/${country.alpha2Code.toLowerCase()}.svg`)"
           >
           </v-img>
           <v-card-title>
