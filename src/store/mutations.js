@@ -79,25 +79,46 @@ export default {
   async updateCountries(state, payload) {
     state.countries = payload;
   },
+  // Updates news array depending on whether there is a search filter or not
   updateNews(state, [payload, type]) {
-    state.newsType = type.trim();
+    // Empty the contry news array if there is a new search parameter
+    if (type && type !== state.newsType && type.trim() !== 'covid19') {
+      state.newsInCountry = [];
+    }
+    // Stores value of the search paramter in the store
+    state.newsType = type && type.trim();
+    // Remove duplicates from news items
     const filteredArticles = payload.articles.filter((el, index, self) => {
       const exists = index === self.findIndex((t) => (
         t.title === el.title
       ));
       return exists;
     });
-    if (state.news.length > 0) {
-      const lastNewsItem = state.news[state.news.length - 1].title;
-      if (lastNewsItem !== filteredArticles[filteredArticles.length - 1].title) {
+
+    // Checks if items already exist in the array
+    if (state.news.length > 0 || state.newsInCountry.length > 0) {
+      // Get title of last elements and compare to avoid duplicate fetching of news item
+      const lastNewsItem = state.news.length > 0 && state.news[state.news.length - 1].title;
+      const lastCountryNewsItem = state.newsInCountry.length > 0
+      && state.newsInCountry[state.newsInCountry.length - 1].title;
+      const lastItemInFilteredArray = filteredArticles[filteredArticles.length - 1].title;
+
+      if (lastNewsItem !== lastItemInFilteredArray
+        || lastCountryNewsItem !== lastItemInFilteredArray
+      ) {
+        // Checks if there is no search parameter and pushes into the corresponding array
         if (!type || (type && type.trim() === 'covid19')) {
           state.news.push(...filteredArticles);
+          state.newsInCountry = [];
         } else if (type.trim() !== 'covid19') {
           state.newsInCountry.push(...filteredArticles);
+          state.news = [];
         }
       }
-    } else {
+    } else if (!type || type.trim() === 'covid19') {
       state.news.push(...filteredArticles);
+    } else {
+      state.newsInCountry.push(...filteredArticles);
     }
   },
   updatePageNum(state) {

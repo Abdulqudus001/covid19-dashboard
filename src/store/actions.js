@@ -67,7 +67,12 @@ export default {
     });
   },
   getLatestNews({ commit }, [page, payload]) {
-    const newsUrl = `https://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en&page=${page}`;
+    let newsUrl = '';
+    if (payload) {
+      newsUrl = `https://newsapi.org/v2/everything?q=${payload}&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en&page=${page}`;
+    } else {
+      newsUrl = `https://newsapi.org/v2/everything?q=covid19&sortBy=publishedAt&apiKey=${rapidAPIKey}&language=en&page=${page}`;
+    }
     Vue.axios.get(newsUrl).then(({ data }) => {
       commit('updateNews', [data, payload]);
     });

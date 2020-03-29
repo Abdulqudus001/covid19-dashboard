@@ -60,7 +60,7 @@ export default {
     elevation: 3,
   }),
   created() {
-    this.$store.dispatch('getLatestNews', [this.getPageNum, 'covid19']);
+    this.$store.dispatch('getLatestNews', [this.getPageNum]);
   },
   mounted() {
     window.onscroll = (e) => {
