@@ -45,15 +45,15 @@
           <v-card-subtitle>
             <div>
               <b>Cases: </b>
-              {{ country.cases || 'Not available' }}
+              {{ country.cases || '0' }}
             </div>
             <div>
               <b>Deaths: </b>
-              {{ country.deaths || 'Not available' }}
+              {{ country.deaths || '0' }}
             </div>
             <div>
               <b>Recoveries: </b>
-              {{ country.recovered || 'Not available' }}
+              {{ country.recovered || '0' }}
             </div>
           </v-card-subtitle>
         </v-card>
