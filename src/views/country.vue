@@ -424,10 +424,17 @@ export default {
       } return null;
     },
     getCountryData() {
+      // || el.altSpellings.includes(el.country.toUpperCase());
       const country = this.country.toLowerCase();
+      const countryDetails = this.getCountries.find((nation) => (
+        nation.name.toLowerCase() === country || nation.altSpellings.includes(country.toUpperCase())
+      ));
+      /* eslint-disable-next-line */
+      this.countryDetails = countryDetails;
       const countryData = this.getAllCountryCases.find((el) => {
         const countryName = el.country.toLowerCase();
-        return country === countryName;
+        return country === countryName
+        || countryDetails.altSpellings.includes(countryName.toUpperCase());
       });
       return countryData;
     },
@@ -485,9 +492,21 @@ export default {
     getCountryTimeSeries() {
       this.axios.get('https://pomber.github.io/covid19/timeseries.json').then(({ data }) => {
         const country = `${[...this.country][0].toUpperCase()}${this.country.slice(1)}`;
-        this.countryData = data[country];
+        const keys = Object.keys(data);
+        keys.forEach((key) => {
+          if (key.toLowerCase() === country.toLowerCase()
+            || this.countryDetails.altSpellings.includes(key.toUpperCase())
+            || this.countryDetails.altSpellings.includes(this.getCountryInitials(key).toUpperCase())
+          ) {
+            this.countryData = data[key];
+          }
+        });
         this.getChartData(this.countryData);
       });
+    },
+    getCountryInitials(countryName) {
+      const initials = countryName.split(' ').map((name) => name[0]);
+      return initials.join('');
     },
     getChartData(data) {
       const casesData = data.map((el) => [el.date, el.confirmed]);
@@ -518,7 +537,9 @@ export default {
     getCountryStatesData() {
       const countryUrl = `http://covid-19-countries.herokuapp.com/countries/${this.country}`;
       this.axios.get(countryUrl).then(({ data }) => {
-        this.countryStatesData = data[0].states;
+        if (Array.isArray(data[0])) {
+          this.countryStatesData = data[0].states;
+        }
       });
     },
   },
