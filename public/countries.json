@@ -7,7 +7,8 @@
         "Afġānistān"
      ],
      "population":27657145,
-     "flag":"https://restcountries.eu/data/afg.svg"
+     "flag":"https://restcountries.eu/data/afg.svg",
+     "region":"Asia"
   },
   {
      "name":"Åland Islands",
@@ -19,7 +20,8 @@
         "Ahvenanmaa"
      ],
      "population":28875,
-     "flag":"https://restcountries.eu/data/ala.svg"
+     "flag":"https://restcountries.eu/data/ala.svg",
+     "region":"Europe"
   },
   {
      "name":"Albania",
@@ -31,7 +33,8 @@
         "Shqipnia"
      ],
      "population":2886026,
-     "flag":"https://restcountries.eu/data/alb.svg"
+     "flag":"https://restcountries.eu/data/alb.svg",
+     "region":"Europe"
   },
   {
      "name":"Algeria",
@@ -42,7 +45,8 @@
         "Algérie"
      ],
      "population":40400000,
-     "flag":"https://restcountries.eu/data/dza.svg"
+     "flag":"https://restcountries.eu/data/dza.svg",
+     "region":"Africa"
   },
   {
      "name":"American Samoa",
@@ -54,7 +58,8 @@
         "Sāmoa Amelika"
      ],
      "population":57100,
-     "flag":"https://restcountries.eu/data/asm.svg"
+     "flag":"https://restcountries.eu/data/asm.svg",
+     "region":"Oceania"
   },
   {
      "name":"Andorra",
@@ -65,7 +70,8 @@
         "Principat d'Andorra"
      ],
      "population":78014,
-     "flag":"https://restcountries.eu/data/and.svg"
+     "flag":"https://restcountries.eu/data/and.svg",
+     "region":"Europe"
   },
   {
      "name":"Angola",
@@ -76,7 +82,8 @@
         "ʁɛpublika de an'ɡɔla"
      ],
      "population":25868000,
-     "flag":"https://restcountries.eu/data/ago.svg"
+     "flag":"https://restcountries.eu/data/ago.svg",
+     "region":"Africa"
   },
   {
      "name":"Anguilla",
@@ -85,7 +92,8 @@
         "AI"
      ],
      "population":13452,
-     "flag":"https://restcountries.eu/data/aia.svg"
+     "flag":"https://restcountries.eu/data/aia.svg",
+     "region":"Americas"
   },
   {
      "name":"Antarctica",
@@ -94,7 +102,8 @@
 
      ],
      "population":1000,
-     "flag":"https://restcountries.eu/data/ata.svg"
+     "flag":"https://restcountries.eu/data/ata.svg",
+     "region":"Polar"
   },
   {
      "name":"Antigua and Barbuda",
@@ -103,7 +112,8 @@
         "AG"
      ],
      "population":86295,
-     "flag":"https://restcountries.eu/data/atg.svg"
+     "flag":"https://restcountries.eu/data/atg.svg",
+     "region":"Americas"
   },
   {
      "name":"Argentina",
@@ -114,7 +124,8 @@
         "República Argentina"
      ],
      "population":43590400,
-     "flag":"https://restcountries.eu/data/arg.svg"
+     "flag":"https://restcountries.eu/data/arg.svg",
+     "region":"Americas"
   },
   {
      "name":"Armenia",
@@ -126,7 +137,8 @@
         "Հայաստանի Հանրապետություն"
      ],
      "population":2994400,
-     "flag":"https://restcountries.eu/data/arm.svg"
+     "flag":"https://restcountries.eu/data/arm.svg",
+     "region":"Asia"
   },
   {
      "name":"Aruba",
@@ -135,7 +147,8 @@
         "AW"
      ],
      "population":107394,
-     "flag":"https://restcountries.eu/data/abw.svg"
+     "flag":"https://restcountries.eu/data/abw.svg",
+     "region":"Americas"
   },
   {
      "name":"Australia",
@@ -144,7 +157,8 @@
         "AU"
      ],
      "population":24117360,
-     "flag":"https://restcountries.eu/data/aus.svg"
+     "flag":"https://restcountries.eu/data/aus.svg",
+     "region":"Oceania"
   },
   {
      "name":"Austria",
@@ -156,7 +170,8 @@
         "Oesterreich"
      ],
      "population":8725931,
-     "flag":"https://restcountries.eu/data/aut.svg"
+     "flag":"https://restcountries.eu/data/aut.svg",
+     "region":"Europe"
   },
   {
      "name":"Azerbaijan",
@@ -167,7 +182,8 @@
         "Azərbaycan Respublikası"
      ],
      "population":9730500,
-     "flag":"https://restcountries.eu/data/aze.svg"
+     "flag":"https://restcountries.eu/data/aze.svg",
+     "region":"Asia"
   },
   {
      "name":"Bahamas",
@@ -177,7 +193,8 @@
         "Commonwealth of the Bahamas"
      ],
      "population":378040,
-     "flag":"https://restcountries.eu/data/bhs.svg"
+     "flag":"https://restcountries.eu/data/bhs.svg",
+     "region":"Americas"
   },
   {
      "name":"Bahrain",
@@ -188,7 +205,8 @@
         "Mamlakat al-Baḥrayn"
      ],
      "population":1404900,
-     "flag":"https://restcountries.eu/data/bhr.svg"
+     "flag":"https://restcountries.eu/data/bhr.svg",
+     "region":"Asia"
   },
   {
      "name":"Bangladesh",
@@ -199,7 +217,8 @@
         "Gônôprôjatôntri Bangladesh"
      ],
      "population":161006790,
-     "flag":"https://restcountries.eu/data/bgd.svg"
+     "flag":"https://restcountries.eu/data/bgd.svg",
+     "region":"Asia"
   },
   {
      "name":"Barbados",
@@ -208,7 +227,8 @@
         "BB"
      ],
      "population":285000,
-     "flag":"https://restcountries.eu/data/brb.svg"
+     "flag":"https://restcountries.eu/data/brb.svg",
+     "region":"Americas"
   },
   {
      "name":"Belarus",
@@ -223,7 +243,8 @@
         "Respublika Belarus’"
      ],
      "population":9498700,
-     "flag":"https://restcountries.eu/data/blr.svg"
+     "flag":"https://restcountries.eu/data/blr.svg",
+     "region":"Europe"
   },
   {
      "name":"Belgium",
@@ -240,7 +261,8 @@
         "Königreich Belgien"
      ],
      "population":11319511,
-     "flag":"https://restcountries.eu/data/bel.svg"
+     "flag":"https://restcountries.eu/data/bel.svg",
+     "region":"Europe"
   },
   {
      "name":"Belize",
@@ -249,7 +271,8 @@
         "BZ"
      ],
      "population":370300,
-     "flag":"https://restcountries.eu/data/blz.svg"
+     "flag":"https://restcountries.eu/data/blz.svg",
+     "region":"Americas"
   },
   {
      "name":"Benin",
@@ -260,7 +283,8 @@
         "République du Bénin"
      ],
      "population":10653654,
-     "flag":"https://restcountries.eu/data/ben.svg"
+     "flag":"https://restcountries.eu/data/ben.svg",
+     "region":"Africa"
   },
   {
      "name":"Bermuda",
@@ -272,7 +296,8 @@
         "Somers Isles"
      ],
      "population":61954,
-     "flag":"https://restcountries.eu/data/bmu.svg"
+     "flag":"https://restcountries.eu/data/bmu.svg",
+     "region":"Americas"
   },
   {
      "name":"Bhutan",
@@ -282,7 +307,8 @@
         "Kingdom of Bhutan"
      ],
      "population":775620,
-     "flag":"https://restcountries.eu/data/btn.svg"
+     "flag":"https://restcountries.eu/data/btn.svg",
+     "region":"Asia"
   },
   {
      "name":"Bolivia (Plurinational State of)",
@@ -298,7 +324,8 @@
         "Tetã Volívia"
      ],
      "population":10985059,
-     "flag":"https://restcountries.eu/data/bol.svg"
+     "flag":"https://restcountries.eu/data/bol.svg",
+     "region":"Americas"
   },
   {
      "name":"Bonaire, Sint Eustatius and Saba",
@@ -308,7 +335,8 @@
         "Boneiru"
      ],
      "population":17408,
-     "flag":"https://restcountries.eu/data/bes.svg"
+     "flag":"https://restcountries.eu/data/bes.svg",
+     "region":"Americas"
   },
   {
      "name":"Bosnia and Herzegovina",
@@ -319,7 +347,8 @@
         "Босна и Херцеговина"
      ],
      "population":3531159,
-     "flag":"https://restcountries.eu/data/bih.svg"
+     "flag":"https://restcountries.eu/data/bih.svg",
+     "region":"Europe"
   },
   {
      "name":"Botswana",
@@ -330,7 +359,8 @@
         "Lefatshe la Botswana"
      ],
      "population":2141206,
-     "flag":"https://restcountries.eu/data/bwa.svg"
+     "flag":"https://restcountries.eu/data/bwa.svg",
+     "region":"Africa"
   },
   {
      "name":"Bouvet Island",
@@ -341,7 +371,8 @@
         "Bouvet-øya"
      ],
      "population":0,
-     "flag":"https://restcountries.eu/data/bvt.svg"
+     "flag":"https://restcountries.eu/data/bvt.svg",
+     "region":""
   },
   {
      "name":"Brazil",
@@ -353,7 +384,8 @@
         "República Federativa do Brasil"
      ],
      "population":206135893,
-     "flag":"https://restcountries.eu/data/bra.svg"
+     "flag":"https://restcountries.eu/data/bra.svg",
+     "region":"Americas"
   },
   {
      "name":"British Indian Ocean Territory",
@@ -362,7 +394,8 @@
         "IO"
      ],
      "population":3000,
-     "flag":"https://restcountries.eu/data/iot.svg"
+     "flag":"https://restcountries.eu/data/iot.svg",
+     "region":"Africa"
   },
   {
      "name":"United States Minor Outlying Islands",
@@ -371,7 +404,8 @@
         "UM"
      ],
      "population":300,
-     "flag":"https://restcountries.eu/data/umi.svg"
+     "flag":"https://restcountries.eu/data/umi.svg",
+     "region":"Americas"
   },
   {
      "name":"Virgin Islands (British)",
@@ -380,7 +414,8 @@
         "VG"
      ],
      "population":28514,
-     "flag":"https://restcountries.eu/data/vgb.svg"
+     "flag":"https://restcountries.eu/data/vgb.svg",
+     "region":"Americas"
   },
   {
      "name":"Virgin Islands (U.S.)",
@@ -392,7 +427,8 @@
         "U.S. Virgin Islands"
      ],
      "population":114743,
-     "flag":"https://restcountries.eu/data/vir.svg"
+     "flag":"https://restcountries.eu/data/vir.svg",
+     "region":"Americas"
   },
   {
      "name":"Brunei Darussalam",
@@ -403,7 +439,8 @@
         " the Abode of Peace"
      ],
      "population":411900,
-     "flag":"https://restcountries.eu/data/brn.svg"
+     "flag":"https://restcountries.eu/data/brn.svg",
+     "region":"Asia"
   },
   {
      "name":"Bulgaria",
@@ -414,7 +451,8 @@
         "Република България"
      ],
      "population":7153784,
-     "flag":"https://restcountries.eu/data/bgr.svg"
+     "flag":"https://restcountries.eu/data/bgr.svg",
+     "region":"Europe"
   },
   {
      "name":"Burkina Faso",
@@ -423,7 +461,8 @@
         "BF"
      ],
      "population":19034397,
-     "flag":"https://restcountries.eu/data/bfa.svg"
+     "flag":"https://restcountries.eu/data/bfa.svg",
+     "region":"Africa"
   },
   {
      "name":"Burundi",
@@ -435,7 +474,8 @@
         "République du Burundi"
      ],
      "population":10114505,
-     "flag":"https://restcountries.eu/data/bdi.svg"
+     "flag":"https://restcountries.eu/data/bdi.svg",
+     "region":"Africa"
   },
   {
      "name":"Cambodia",
@@ -445,7 +485,8 @@
         "Kingdom of Cambodia"
      ],
      "population":15626444,
-     "flag":"https://restcountries.eu/data/khm.svg"
+     "flag":"https://restcountries.eu/data/khm.svg",
+     "region":"Asia"
   },
   {
      "name":"Cameroon",
@@ -456,7 +497,8 @@
         "République du Cameroun"
      ],
      "population":22709892,
-     "flag":"https://restcountries.eu/data/cmr.svg"
+     "flag":"https://restcountries.eu/data/cmr.svg",
+     "region":"Africa"
   },
   {
      "name":"Canada",
@@ -465,7 +507,8 @@
         "CA"
      ],
      "population":36155487,
-     "flag":"https://restcountries.eu/data/can.svg"
+     "flag":"https://restcountries.eu/data/can.svg",
+     "region":"Americas"
   },
   {
      "name":"Cabo Verde",
@@ -476,7 +519,8 @@
         "República de Cabo Verde"
      ],
      "population":531239,
-     "flag":"https://restcountries.eu/data/cpv.svg"
+     "flag":"https://restcountries.eu/data/cpv.svg",
+     "region":"Africa"
   },
   {
      "name":"Cayman Islands",
@@ -485,7 +529,8 @@
         "KY"
      ],
      "population":58238,
-     "flag":"https://restcountries.eu/data/cym.svg"
+     "flag":"https://restcountries.eu/data/cym.svg",
+     "region":"Americas"
   },
   {
      "name":"Central African Republic",
@@ -496,7 +541,8 @@
         "République centrafricaine"
      ],
      "population":4998000,
-     "flag":"https://restcountries.eu/data/caf.svg"
+     "flag":"https://restcountries.eu/data/caf.svg",
+     "region":"Africa"
   },
   {
      "name":"Chad",
@@ -508,7 +554,8 @@
         "République du Tchad"
      ],
      "population":14497000,
-     "flag":"https://restcountries.eu/data/tcd.svg"
+     "flag":"https://restcountries.eu/data/tcd.svg",
+     "region":"Africa"
   },
   {
      "name":"Chile",
@@ -519,7 +566,8 @@
         "República de Chile"
      ],
      "population":18191900,
-     "flag":"https://restcountries.eu/data/chl.svg"
+     "flag":"https://restcountries.eu/data/chl.svg",
+     "region":"Americas"
   },
   {
      "name":"China",
@@ -534,7 +582,8 @@
         "Zhōnghuá Rénmín Gònghéguó"
      ],
      "population":1377422166,
-     "flag":"https://restcountries.eu/data/chn.svg"
+     "flag":"https://restcountries.eu/data/chn.svg",
+     "region":"Asia"
   },
   {
      "name":"Christmas Island",
@@ -544,7 +593,8 @@
         "Territory of Christmas Island"
      ],
      "population":2072,
-     "flag":"https://restcountries.eu/data/cxr.svg"
+     "flag":"https://restcountries.eu/data/cxr.svg",
+     "region":"Oceania"
   },
   {
      "name":"Cocos (Keeling) Islands",
@@ -555,7 +605,8 @@
         "Keeling Islands"
      ],
      "population":550,
-     "flag":"https://restcountries.eu/data/cck.svg"
+     "flag":"https://restcountries.eu/data/cck.svg",
+     "region":"Oceania"
   },
   {
      "name":"Colombia",
@@ -566,7 +617,8 @@
         "República de Colombia"
      ],
      "population":48759958,
-     "flag":"https://restcountries.eu/data/col.svg"
+     "flag":"https://restcountries.eu/data/col.svg",
+     "region":"Americas"
   },
   {
      "name":"Comoros",
@@ -579,7 +631,8 @@
         "al-Ittiḥād al-Qumurī"
      ],
      "population":806153,
-     "flag":"https://restcountries.eu/data/com.svg"
+     "flag":"https://restcountries.eu/data/com.svg",
+     "region":"Africa"
   },
   {
      "name":"Congo",
@@ -589,7 +642,8 @@
         "Congo-Brazzaville"
      ],
      "population":4741000,
-     "flag":"https://restcountries.eu/data/cog.svg"
+     "flag":"https://restcountries.eu/data/cog.svg",
+     "region":"Africa"
   },
   {
      "name":"Congo (Democratic Republic of the)",
@@ -601,7 +655,8 @@
         "DRC"
      ],
      "population":85026000,
-     "flag":"https://restcountries.eu/data/cod.svg"
+     "flag":"https://restcountries.eu/data/cod.svg",
+     "region":"Africa"
   },
   {
      "name":"Cook Islands",
@@ -611,7 +666,8 @@
         "Kūki 'Āirani"
      ],
      "population":18100,
-     "flag":"https://restcountries.eu/data/cok.svg"
+     "flag":"https://restcountries.eu/data/cok.svg",
+     "region":"Oceania"
   },
   {
      "name":"Costa Rica",
@@ -622,7 +678,8 @@
         "República de Costa Rica"
      ],
      "population":4890379,
-     "flag":"https://restcountries.eu/data/cri.svg"
+     "flag":"https://restcountries.eu/data/cri.svg",
+     "region":"Americas"
   },
   {
      "name":"Croatia",
@@ -634,7 +691,8 @@
         "Republika Hrvatska"
      ],
      "population":4190669,
-     "flag":"https://restcountries.eu/data/hrv.svg"
+     "flag":"https://restcountries.eu/data/hrv.svg",
+     "region":"Europe"
   },
   {
      "name":"Cuba",
@@ -645,7 +703,8 @@
         "República de Cuba"
      ],
      "population":11239004,
-     "flag":"https://restcountries.eu/data/cub.svg"
+     "flag":"https://restcountries.eu/data/cub.svg",
+     "region":"Americas"
   },
   {
      "name":"Curaçao",
@@ -659,7 +718,8 @@
         "Pais Kòrsou"
      ],
      "population":154843,
-     "flag":"https://restcountries.eu/data/cuw.svg"
+     "flag":"https://restcountries.eu/data/cuw.svg",
+     "region":"Americas"
   },
   {
      "name":"Cyprus",
@@ -673,7 +733,8 @@
         "Kıbrıs Cumhuriyeti"
      ],
      "population":847000,
-     "flag":"https://restcountries.eu/data/cyp.svg"
+     "flag":"https://restcountries.eu/data/cyp.svg",
+     "region":"Europe"
   },
   {
      "name":"Czech Republic",
@@ -684,7 +745,8 @@
         "Česko"
      ],
      "population":10558524,
-     "flag":"https://restcountries.eu/data/cze.svg"
+     "flag":"https://restcountries.eu/data/cze.svg",
+     "region":"Europe"
   },
   {
      "name":"Denmark",
@@ -696,7 +758,8 @@
         "Kongeriget Danmark"
      ],
      "population":5717014,
-     "flag":"https://restcountries.eu/data/dnk.svg"
+     "flag":"https://restcountries.eu/data/dnk.svg",
+     "region":"Europe"
   },
   {
      "name":"Djibouti",
@@ -711,7 +774,8 @@
         "Jamhuuriyadda Jabuuti"
      ],
      "population":900000,
-     "flag":"https://restcountries.eu/data/dji.svg"
+     "flag":"https://restcountries.eu/data/dji.svg",
+     "region":"Africa"
   },
   {
      "name":"Dominica",
@@ -723,7 +787,8 @@
         "Commonwealth of Dominica"
      ],
      "population":71293,
-     "flag":"https://restcountries.eu/data/dma.svg"
+     "flag":"https://restcountries.eu/data/dma.svg",
+     "region":"Americas"
   },
   {
      "name":"Dominican Republic",
@@ -732,7 +797,8 @@
         "DO"
      ],
      "population":10075045,
-     "flag":"https://restcountries.eu/data/dom.svg"
+     "flag":"https://restcountries.eu/data/dom.svg",
+     "region":"Americas"
   },
   {
      "name":"Ecuador",
@@ -743,7 +809,8 @@
         "República del Ecuador"
      ],
      "population":16545799,
-     "flag":"https://restcountries.eu/data/ecu.svg"
+     "flag":"https://restcountries.eu/data/ecu.svg",
+     "region":"Americas"
   },
   {
      "name":"Egypt",
@@ -753,7 +820,8 @@
         "Arab Republic of Egypt"
      ],
      "population":91290000,
-     "flag":"https://restcountries.eu/data/egy.svg"
+     "flag":"https://restcountries.eu/data/egy.svg",
+     "region":"Africa"
   },
   {
      "name":"El Salvador",
@@ -764,7 +832,8 @@
         "República de El Salvador"
      ],
      "population":6520675,
-     "flag":"https://restcountries.eu/data/slv.svg"
+     "flag":"https://restcountries.eu/data/slv.svg",
+     "region":"Americas"
   },
   {
      "name":"Equatorial Guinea",
@@ -777,7 +846,8 @@
         "República da Guiné Equatorial"
      ],
      "population":1222442,
-     "flag":"https://restcountries.eu/data/gnq.svg"
+     "flag":"https://restcountries.eu/data/gnq.svg",
+     "region":"Africa"
   },
   {
      "name":"Eritrea",
@@ -792,7 +862,8 @@
         ""
      ],
      "population":5352000,
-     "flag":"https://restcountries.eu/data/eri.svg"
+     "flag":"https://restcountries.eu/data/eri.svg",
+     "region":"Africa"
   },
   {
      "name":"Estonia",
@@ -804,7 +875,8 @@
         "Eesti Vabariik"
      ],
      "population":1315944,
-     "flag":"https://restcountries.eu/data/est.svg"
+     "flag":"https://restcountries.eu/data/est.svg",
+     "region":"Europe"
   },
   {
      "name":"Ethiopia",
@@ -816,7 +888,8 @@
         "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
      ],
      "population":92206005,
-     "flag":"https://restcountries.eu/data/eth.svg"
+     "flag":"https://restcountries.eu/data/eth.svg",
+     "region":"Africa"
   },
   {
      "name":"Falkland Islands (Malvinas)",
@@ -826,7 +899,8 @@
         "Islas Malvinas"
      ],
      "population":2563,
-     "flag":"https://restcountries.eu/data/flk.svg"
+     "flag":"https://restcountries.eu/data/flk.svg",
+     "region":"Americas"
   },
   {
      "name":"Faroe Islands",
@@ -837,7 +911,8 @@
         "Færøerne"
      ],
      "population":49376,
-     "flag":"https://restcountries.eu/data/fro.svg"
+     "flag":"https://restcountries.eu/data/fro.svg",
+     "region":"Europe"
   },
   {
      "name":"Fiji",
@@ -850,7 +925,8 @@
         "Fijī Gaṇarājya"
      ],
      "population":867000,
-     "flag":"https://restcountries.eu/data/fji.svg"
+     "flag":"https://restcountries.eu/data/fji.svg",
+     "region":"Oceania"
   },
   {
      "name":"Finland",
@@ -863,7 +939,8 @@
         "Republiken Finland"
      ],
      "population":5491817,
-     "flag":"https://restcountries.eu/data/fin.svg"
+     "flag":"https://restcountries.eu/data/fin.svg",
+     "region":"Europe"
   },
   {
      "name":"France",
@@ -874,7 +951,8 @@
         "République française"
      ],
      "population":66710000,
-     "flag":"https://restcountries.eu/data/fra.svg"
+     "flag":"https://restcountries.eu/data/fra.svg",
+     "region":"Europe"
   },
   {
      "name":"French Guiana",
@@ -885,7 +963,8 @@
         "Guyane"
      ],
      "population":254541,
-     "flag":"https://restcountries.eu/data/guf.svg"
+     "flag":"https://restcountries.eu/data/guf.svg",
+     "region":"Americas"
   },
   {
      "name":"French Polynesia",
@@ -897,7 +976,8 @@
         "Pōrīnetia Farāni"
      ],
      "population":271800,
-     "flag":"https://restcountries.eu/data/pyf.svg"
+     "flag":"https://restcountries.eu/data/pyf.svg",
+     "region":"Oceania"
   },
   {
      "name":"French Southern Territories",
@@ -906,7 +986,8 @@
         "TF"
      ],
      "population":140,
-     "flag":"https://restcountries.eu/data/atf.svg"
+     "flag":"https://restcountries.eu/data/atf.svg",
+     "region":"Africa"
   },
   {
      "name":"Gabon",
@@ -917,7 +998,8 @@
         "République Gabonaise"
      ],
      "population":1802278,
-     "flag":"https://restcountries.eu/data/gab.svg"
+     "flag":"https://restcountries.eu/data/gab.svg",
+     "region":"Africa"
   },
   {
      "name":"Gambia",
@@ -927,7 +1009,8 @@
         "Republic of the Gambia"
      ],
      "population":1882450,
-     "flag":"https://restcountries.eu/data/gmb.svg"
+     "flag":"https://restcountries.eu/data/gmb.svg",
+     "region":"Africa"
   },
   {
      "name":"Georgia",
@@ -937,7 +1020,8 @@
         "Sakartvelo"
      ],
      "population":3720400,
-     "flag":"https://restcountries.eu/data/geo.svg"
+     "flag":"https://restcountries.eu/data/geo.svg",
+     "region":"Asia"
   },
   {
      "name":"Germany",
@@ -948,7 +1032,8 @@
         "Bundesrepublik Deutschland"
      ],
      "population":81770900,
-     "flag":"https://restcountries.eu/data/deu.svg"
+     "flag":"https://restcountries.eu/data/deu.svg",
+     "region":"Europe"
   },
   {
      "name":"Ghana",
@@ -957,7 +1042,8 @@
         "GH"
      ],
      "population":27670174,
-     "flag":"https://restcountries.eu/data/gha.svg"
+     "flag":"https://restcountries.eu/data/gha.svg",
+     "region":"Africa"
   },
   {
      "name":"Gibraltar",
@@ -966,7 +1052,8 @@
         "GI"
      ],
      "population":33140,
-     "flag":"https://restcountries.eu/data/gib.svg"
+     "flag":"https://restcountries.eu/data/gib.svg",
+     "region":"Europe"
   },
   {
      "name":"Greece",
@@ -978,7 +1065,8 @@
         "Ελληνική Δημοκρατία"
      ],
      "population":10858018,
-     "flag":"https://restcountries.eu/data/grc.svg"
+     "flag":"https://restcountries.eu/data/grc.svg",
+     "region":"Europe"
   },
   {
      "name":"Greenland",
@@ -988,7 +1076,8 @@
         "Grønland"
      ],
      "population":55847,
-     "flag":"https://restcountries.eu/data/grl.svg"
+     "flag":"https://restcountries.eu/data/grl.svg",
+     "region":"Americas"
   },
   {
      "name":"Grenada",
@@ -997,7 +1086,8 @@
         "GD"
      ],
      "population":103328,
-     "flag":"https://restcountries.eu/data/grd.svg"
+     "flag":"https://restcountries.eu/data/grd.svg",
+     "region":"Americas"
   },
   {
      "name":"Guadeloupe",
@@ -1007,7 +1097,8 @@
         "Gwadloup"
      ],
      "population":400132,
-     "flag":"https://restcountries.eu/data/glp.svg"
+     "flag":"https://restcountries.eu/data/glp.svg",
+     "region":"Americas"
   },
   {
      "name":"Guam",
@@ -1017,7 +1108,8 @@
         "Guåhån"
      ],
      "population":184200,
-     "flag":"https://restcountries.eu/data/gum.svg"
+     "flag":"https://restcountries.eu/data/gum.svg",
+     "region":"Oceania"
   },
   {
      "name":"Guatemala",
@@ -1026,7 +1118,8 @@
         "GT"
      ],
      "population":16176133,
-     "flag":"https://restcountries.eu/data/gtm.svg"
+     "flag":"https://restcountries.eu/data/gtm.svg",
+     "region":"Americas"
   },
   {
      "name":"Guernsey",
@@ -1037,7 +1130,8 @@
         "Bailliage de Guernesey"
      ],
      "population":62999,
-     "flag":"https://restcountries.eu/data/ggy.svg"
+     "flag":"https://restcountries.eu/data/ggy.svg",
+     "region":"Europe"
   },
   {
      "name":"Guinea",
@@ -1048,7 +1142,8 @@
         "République de Guinée"
      ],
      "population":12947000,
-     "flag":"https://restcountries.eu/data/gin.svg"
+     "flag":"https://restcountries.eu/data/gin.svg",
+     "region":"Africa"
   },
   {
      "name":"Guinea-Bissau",
@@ -1059,7 +1154,8 @@
         "República da Guiné-Bissau"
      ],
      "population":1547777,
-     "flag":"https://restcountries.eu/data/gnb.svg"
+     "flag":"https://restcountries.eu/data/gnb.svg",
+     "region":"Africa"
   },
   {
      "name":"Guyana",
@@ -1069,7 +1165,8 @@
         "Co-operative Republic of Guyana"
      ],
      "population":746900,
-     "flag":"https://restcountries.eu/data/guy.svg"
+     "flag":"https://restcountries.eu/data/guy.svg",
+     "region":"Americas"
   },
   {
      "name":"Haiti",
@@ -1081,7 +1178,8 @@
         "Repiblik Ayiti"
      ],
      "population":11078033,
-     "flag":"https://restcountries.eu/data/hti.svg"
+     "flag":"https://restcountries.eu/data/hti.svg",
+     "region":"Americas"
   },
   {
      "name":"Heard Island and McDonald Islands",
@@ -1090,7 +1188,8 @@
         "HM"
      ],
      "population":0,
-     "flag":"https://restcountries.eu/data/hmd.svg"
+     "flag":"https://restcountries.eu/data/hmd.svg",
+     "region":""
   },
   {
      "name":"Holy See",
@@ -1101,7 +1200,8 @@
         "The Vatican"
      ],
      "population":451,
-     "flag":"https://restcountries.eu/data/vat.svg"
+     "flag":"https://restcountries.eu/data/vat.svg",
+     "region":"Europe"
   },
   {
      "name":"Honduras",
@@ -1112,7 +1212,8 @@
         "República de Honduras"
      ],
      "population":8576532,
-     "flag":"https://restcountries.eu/data/hnd.svg"
+     "flag":"https://restcountries.eu/data/hnd.svg",
+     "region":"Americas"
   },
   {
      "name":"Hong Kong",
@@ -1122,7 +1223,8 @@
         "香港"
      ],
      "population":7324300,
-     "flag":"https://restcountries.eu/data/hkg.svg"
+     "flag":"https://restcountries.eu/data/hkg.svg",
+     "region":"Asia"
   },
   {
      "name":"Hungary",
@@ -1131,7 +1233,8 @@
         "HU"
      ],
      "population":9823000,
-     "flag":"https://restcountries.eu/data/hun.svg"
+     "flag":"https://restcountries.eu/data/hun.svg",
+     "region":"Europe"
   },
   {
      "name":"Iceland",
@@ -1143,7 +1246,8 @@
         "Lýðveldið Ísland"
      ],
      "population":334300,
-     "flag":"https://restcountries.eu/data/isl.svg"
+     "flag":"https://restcountries.eu/data/isl.svg",
+     "region":"Europe"
   },
   {
      "name":"India",
@@ -1155,7 +1259,8 @@
         "Bharat Ganrajya"
      ],
      "population":1295210000,
-     "flag":"https://restcountries.eu/data/ind.svg"
+     "flag":"https://restcountries.eu/data/ind.svg",
+     "region":"Asia"
   },
   {
      "name":"Indonesia",
@@ -1166,7 +1271,8 @@
         "Republik Indonesia"
      ],
      "population":258705000,
-     "flag":"https://restcountries.eu/data/idn.svg"
+     "flag":"https://restcountries.eu/data/idn.svg",
+     "region":"Asia"
   },
   {
      "name":"Côte d'Ivoire",
@@ -1178,7 +1284,8 @@
         "République de Côte d'Ivoire"
      ],
      "population":22671331,
-     "flag":"https://restcountries.eu/data/civ.svg"
+     "flag":"https://restcountries.eu/data/civ.svg",
+     "region":"Africa"
   },
   {
      "name":"Iran (Islamic Republic of)",
@@ -1189,7 +1296,8 @@
         "Jomhuri-ye Eslāmi-ye Irān"
      ],
      "population":79369900,
-     "flag":"https://restcountries.eu/data/irn.svg"
+     "flag":"https://restcountries.eu/data/irn.svg",
+     "region":"Asia"
   },
   {
      "name":"Iraq",
@@ -1200,7 +1308,8 @@
         "Jumhūriyyat al-‘Irāq"
      ],
      "population":37883543,
-     "flag":"https://restcountries.eu/data/irq.svg"
+     "flag":"https://restcountries.eu/data/irq.svg",
+     "region":"Asia"
   },
   {
      "name":"Ireland",
@@ -1212,7 +1321,8 @@
         "Poblacht na hÉireann"
      ],
      "population":6378000,
-     "flag":"https://restcountries.eu/data/irl.svg"
+     "flag":"https://restcountries.eu/data/irl.svg",
+     "region":"Europe"
   },
   {
      "name":"Isle of Man",
@@ -1224,7 +1334,8 @@
         "Mannin"
      ],
      "population":84497,
-     "flag":"https://restcountries.eu/data/imn.svg"
+     "flag":"https://restcountries.eu/data/imn.svg",
+     "region":"Europe"
   },
   {
      "name":"Israel",
@@ -1235,7 +1346,8 @@
         "Medīnat Yisrā'el"
      ],
      "population":8527400,
-     "flag":"https://restcountries.eu/data/isr.svg"
+     "flag":"https://restcountries.eu/data/isr.svg",
+     "region":"Asia"
   },
   {
      "name":"Italy",
@@ -1246,7 +1358,8 @@
         "Repubblica italiana"
      ],
      "population":60665551,
-     "flag":"https://restcountries.eu/data/ita.svg"
+     "flag":"https://restcountries.eu/data/ita.svg",
+     "region":"Europe"
   },
   {
      "name":"Jamaica",
@@ -1255,7 +1368,8 @@
         "JM"
      ],
      "population":2723246,
-     "flag":"https://restcountries.eu/data/jam.svg"
+     "flag":"https://restcountries.eu/data/jam.svg",
+     "region":"Americas"
   },
   {
      "name":"Japan",
@@ -1266,7 +1380,8 @@
         "Nihon"
      ],
      "population":126960000,
-     "flag":"https://restcountries.eu/data/jpn.svg"
+     "flag":"https://restcountries.eu/data/jpn.svg",
+     "region":"Asia"
   },
   {
      "name":"Jersey",
@@ -1278,7 +1393,8 @@
         "Bailliage dé Jèrri"
      ],
      "population":100800,
-     "flag":"https://restcountries.eu/data/jey.svg"
+     "flag":"https://restcountries.eu/data/jey.svg",
+     "region":"Europe"
   },
   {
      "name":"Jordan",
@@ -1289,7 +1405,8 @@
         "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
      ],
      "population":9531712,
-     "flag":"https://restcountries.eu/data/jor.svg"
+     "flag":"https://restcountries.eu/data/jor.svg",
+     "region":"Asia"
   },
   {
      "name":"Kazakhstan",
@@ -1305,7 +1422,8 @@
         "Respublika Kazakhstan"
      ],
      "population":17753200,
-     "flag":"https://restcountries.eu/data/kaz.svg"
+     "flag":"https://restcountries.eu/data/kaz.svg",
+     "region":"Asia"
   },
   {
      "name":"Kenya",
@@ -1316,7 +1434,8 @@
         "Jamhuri ya Kenya"
      ],
      "population":47251000,
-     "flag":"https://restcountries.eu/data/ken.svg"
+     "flag":"https://restcountries.eu/data/ken.svg",
+     "region":"Africa"
   },
   {
      "name":"Kiribati",
@@ -1327,7 +1446,8 @@
         "Ribaberiki Kiribati"
      ],
      "population":113400,
-     "flag":"https://restcountries.eu/data/kir.svg"
+     "flag":"https://restcountries.eu/data/kir.svg",
+     "region":"Oceania"
   },
   {
      "name":"Kuwait",
@@ -1338,7 +1458,8 @@
         "Dawlat al-Kuwait"
      ],
      "population":4183658,
-     "flag":"https://restcountries.eu/data/kwt.svg"
+     "flag":"https://restcountries.eu/data/kwt.svg",
+     "region":"Asia"
   },
   {
      "name":"Kyrgyzstan",
@@ -1351,7 +1472,8 @@
         "Kyrgyz Respublikasy"
      ],
      "population":6047800,
-     "flag":"https://restcountries.eu/data/kgz.svg"
+     "flag":"https://restcountries.eu/data/kgz.svg",
+     "region":"Asia"
   },
   {
      "name":"Lao People's Democratic Republic",
@@ -1364,7 +1486,8 @@
         "Sathalanalat Paxathipatai Paxaxon Lao"
      ],
      "population":6492400,
-     "flag":"https://restcountries.eu/data/lao.svg"
+     "flag":"https://restcountries.eu/data/lao.svg",
+     "region":"Asia"
   },
   {
      "name":"Latvia",
@@ -1375,7 +1498,8 @@
         "Latvijas Republika"
      ],
      "population":1961600,
-     "flag":"https://restcountries.eu/data/lva.svg"
+     "flag":"https://restcountries.eu/data/lva.svg",
+     "region":"Europe"
   },
   {
      "name":"Lebanon",
@@ -1386,7 +1510,8 @@
         "Al-Jumhūrīyah Al-Libnānīyah"
      ],
      "population":5988000,
-     "flag":"https://restcountries.eu/data/lbn.svg"
+     "flag":"https://restcountries.eu/data/lbn.svg",
+     "region":"Asia"
   },
   {
      "name":"Lesotho",
@@ -1397,7 +1522,8 @@
         "Muso oa Lesotho"
      ],
      "population":1894194,
-     "flag":"https://restcountries.eu/data/lso.svg"
+     "flag":"https://restcountries.eu/data/lso.svg",
+     "region":"Africa"
   },
   {
      "name":"Liberia",
@@ -1407,7 +1533,8 @@
         "Republic of Liberia"
      ],
      "population":4615000,
-     "flag":"https://restcountries.eu/data/lbr.svg"
+     "flag":"https://restcountries.eu/data/lbr.svg",
+     "region":"Africa"
   },
   {
      "name":"Libya",
@@ -1418,7 +1545,8 @@
         "Dawlat Libya"
      ],
      "population":6385000,
-     "flag":"https://restcountries.eu/data/lby.svg"
+     "flag":"https://restcountries.eu/data/lby.svg",
+     "region":"Africa"
   },
   {
      "name":"Liechtenstein",
@@ -1429,7 +1557,8 @@
         "Fürstentum Liechtenstein"
      ],
      "population":37623,
-     "flag":"https://restcountries.eu/data/lie.svg"
+     "flag":"https://restcountries.eu/data/lie.svg",
+     "region":"Europe"
   },
   {
      "name":"Lithuania",
@@ -1440,7 +1569,8 @@
         "Lietuvos Respublika"
      ],
      "population":2872294,
-     "flag":"https://restcountries.eu/data/ltu.svg"
+     "flag":"https://restcountries.eu/data/ltu.svg",
+     "region":"Europe"
   },
   {
      "name":"Luxembourg",
@@ -1453,7 +1583,8 @@
         "Groussherzogtum Lëtzebuerg"
      ],
      "population":576200,
-     "flag":"https://restcountries.eu/data/lux.svg"
+     "flag":"https://restcountries.eu/data/lux.svg",
+     "region":"Europe"
   },
   {
      "name":"Macao",
@@ -1466,7 +1597,8 @@
         "Região Administrativa Especial de Macau da República Popular da China"
      ],
      "population":649100,
-     "flag":"https://restcountries.eu/data/mac.svg"
+     "flag":"https://restcountries.eu/data/mac.svg",
+     "region":"Asia"
   },
   {
      "name":"Macedonia (the former Yugoslav Republic of)",
@@ -1477,7 +1609,8 @@
         "Република Македонија"
      ],
      "population":2058539,
-     "flag":"https://restcountries.eu/data/mkd.svg"
+     "flag":"https://restcountries.eu/data/mkd.svg",
+     "region":"Europe"
   },
   {
      "name":"Madagascar",
@@ -1489,7 +1622,8 @@
         "République de Madagascar"
      ],
      "population":22434363,
-     "flag":"https://restcountries.eu/data/mdg.svg"
+     "flag":"https://restcountries.eu/data/mdg.svg",
+     "region":"Africa"
   },
   {
      "name":"Malawi",
@@ -1499,7 +1633,8 @@
         "Republic of Malawi"
      ],
      "population":16832910,
-     "flag":"https://restcountries.eu/data/mwi.svg"
+     "flag":"https://restcountries.eu/data/mwi.svg",
+     "region":"Africa"
   },
   {
      "name":"Malaysia",
@@ -1508,7 +1643,8 @@
         "MY"
      ],
      "population":31405416,
-     "flag":"https://restcountries.eu/data/mys.svg"
+     "flag":"https://restcountries.eu/data/mys.svg",
+     "region":"Asia"
   },
   {
      "name":"Maldives",
@@ -1520,7 +1656,8 @@
         "Dhivehi Raajjeyge Jumhooriyya"
      ],
      "population":344023,
-     "flag":"https://restcountries.eu/data/mdv.svg"
+     "flag":"https://restcountries.eu/data/mdv.svg",
+     "region":"Asia"
   },
   {
      "name":"Mali",
@@ -1531,7 +1668,8 @@
         "République du Mali"
      ],
      "population":18135000,
-     "flag":"https://restcountries.eu/data/mli.svg"
+     "flag":"https://restcountries.eu/data/mli.svg",
+     "region":"Africa"
   },
   {
      "name":"Malta",
@@ -1542,7 +1680,8 @@
         "Repubblika ta' Malta"
      ],
      "population":425384,
-     "flag":"https://restcountries.eu/data/mlt.svg"
+     "flag":"https://restcountries.eu/data/mlt.svg",
+     "region":"Europe"
   },
   {
      "name":"Marshall Islands",
@@ -1553,7 +1692,8 @@
         "Aolepān Aorōkin M̧ajeļ"
      ],
      "population":54880,
-     "flag":"https://restcountries.eu/data/mhl.svg"
+     "flag":"https://restcountries.eu/data/mhl.svg",
+     "region":"Oceania"
   },
   {
      "name":"Martinique",
@@ -1562,7 +1702,8 @@
         "MQ"
      ],
      "population":378243,
-     "flag":"https://restcountries.eu/data/mtq.svg"
+     "flag":"https://restcountries.eu/data/mtq.svg",
+     "region":"Americas"
   },
   {
      "name":"Mauritania",
@@ -1573,7 +1714,8 @@
         "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
      ],
      "population":3718678,
-     "flag":"https://restcountries.eu/data/mrt.svg"
+     "flag":"https://restcountries.eu/data/mrt.svg",
+     "region":"Africa"
   },
   {
      "name":"Mauritius",
@@ -1584,7 +1726,8 @@
         "République de Maurice"
      ],
      "population":1262879,
-     "flag":"https://restcountries.eu/data/mus.svg"
+     "flag":"https://restcountries.eu/data/mus.svg",
+     "region":"Africa"
   },
   {
      "name":"Mayotte",
@@ -1595,7 +1738,8 @@
         "Département de Mayotte"
      ],
      "population":226915,
-     "flag":"https://restcountries.eu/data/myt.svg"
+     "flag":"https://restcountries.eu/data/myt.svg",
+     "region":"Africa"
   },
   {
      "name":"Mexico",
@@ -1607,7 +1751,8 @@
         "Estados Unidos Mexicanos"
      ],
      "population":122273473,
-     "flag":"https://restcountries.eu/data/mex.svg"
+     "flag":"https://restcountries.eu/data/mex.svg",
+     "region":"Americas"
   },
   {
      "name":"Micronesia (Federated States of)",
@@ -1617,7 +1762,8 @@
         "Federated States of Micronesia"
      ],
      "population":102800,
-     "flag":"https://restcountries.eu/data/fsm.svg"
+     "flag":"https://restcountries.eu/data/fsm.svg",
+     "region":"Oceania"
   },
   {
      "name":"Moldova (Republic of)",
@@ -1628,7 +1774,8 @@
         "Republica Moldova"
      ],
      "population":3553100,
-     "flag":"https://restcountries.eu/data/mda.svg"
+     "flag":"https://restcountries.eu/data/mda.svg",
+     "region":"Europe"
   },
   {
      "name":"Monaco",
@@ -1639,7 +1786,8 @@
         "Principauté de Monaco"
      ],
      "population":38400,
-     "flag":"https://restcountries.eu/data/mco.svg"
+     "flag":"https://restcountries.eu/data/mco.svg",
+     "region":"Europe"
   },
   {
      "name":"Mongolia",
@@ -1648,7 +1796,8 @@
         "MN"
      ],
      "population":3093100,
-     "flag":"https://restcountries.eu/data/mng.svg"
+     "flag":"https://restcountries.eu/data/mng.svg",
+     "region":"Asia"
   },
   {
      "name":"Montenegro",
@@ -1658,7 +1807,8 @@
         "Crna Gora"
      ],
      "population":621810,
-     "flag":"https://restcountries.eu/data/mne.svg"
+     "flag":"https://restcountries.eu/data/mne.svg",
+     "region":"Europe"
   },
   {
      "name":"Montserrat",
@@ -1667,7 +1817,8 @@
         "MS"
      ],
      "population":4922,
-     "flag":"https://restcountries.eu/data/msr.svg"
+     "flag":"https://restcountries.eu/data/msr.svg",
+     "region":"Americas"
   },
   {
      "name":"Morocco",
@@ -1678,7 +1829,8 @@
         "Al-Mamlakah al-Maġribiyah"
      ],
      "population":33337529,
-     "flag":"https://restcountries.eu/data/mar.svg"
+     "flag":"https://restcountries.eu/data/mar.svg",
+     "region":"Africa"
   },
   {
      "name":"Mozambique",
@@ -1689,7 +1841,8 @@
         "República de Moçambique"
      ],
      "population":26423700,
-     "flag":"https://restcountries.eu/data/moz.svg"
+     "flag":"https://restcountries.eu/data/moz.svg",
+     "region":"Africa"
   },
   {
      "name":"Myanmar",
@@ -1701,7 +1854,8 @@
         "Pyidaunzu Thanmăda Myăma Nainngandaw"
      ],
      "population":51419420,
-     "flag":"https://restcountries.eu/data/mmr.svg"
+     "flag":"https://restcountries.eu/data/mmr.svg",
+     "region":"Asia"
   },
   {
      "name":"Namibia",
@@ -1712,7 +1866,8 @@
         "Republic of Namibia"
      ],
      "population":2324388,
-     "flag":"https://restcountries.eu/data/nam.svg"
+     "flag":"https://restcountries.eu/data/nam.svg",
+     "region":"Africa"
   },
   {
      "name":"Nauru",
@@ -1725,7 +1880,8 @@
         "Ripublik Naoero"
      ],
      "population":10084,
-     "flag":"https://restcountries.eu/data/nru.svg"
+     "flag":"https://restcountries.eu/data/nru.svg",
+     "region":"Oceania"
   },
   {
      "name":"Nepal",
@@ -1736,7 +1892,8 @@
         "Loktāntrik Ganatantra Nepāl"
      ],
      "population":28431500,
-     "flag":"https://restcountries.eu/data/npl.svg"
+     "flag":"https://restcountries.eu/data/npl.svg",
+     "region":"Asia"
   },
   {
      "name":"Netherlands",
@@ -1747,7 +1904,8 @@
         "Nederland"
      ],
      "population":17019800,
-     "flag":"https://restcountries.eu/data/nld.svg"
+     "flag":"https://restcountries.eu/data/nld.svg",
+     "region":"Europe"
   },
   {
      "name":"New Caledonia",
@@ -1756,7 +1914,8 @@
         "NC"
      ],
      "population":268767,
-     "flag":"https://restcountries.eu/data/ncl.svg"
+     "flag":"https://restcountries.eu/data/ncl.svg",
+     "region":"Oceania"
   },
   {
      "name":"New Zealand",
@@ -1766,7 +1925,8 @@
         "Aotearoa"
      ],
      "population":4697854,
-     "flag":"https://restcountries.eu/data/nzl.svg"
+     "flag":"https://restcountries.eu/data/nzl.svg",
+     "region":"Oceania"
   },
   {
      "name":"Nicaragua",
@@ -1777,7 +1937,8 @@
         "República de Nicaragua"
      ],
      "population":6262703,
-     "flag":"https://restcountries.eu/data/nic.svg"
+     "flag":"https://restcountries.eu/data/nic.svg",
+     "region":"Americas"
   },
   {
      "name":"Niger",
@@ -1789,7 +1950,8 @@
         "République du Niger"
      ],
      "population":20715000,
-     "flag":"https://restcountries.eu/data/ner.svg"
+     "flag":"https://restcountries.eu/data/ner.svg",
+     "region":"Africa"
   },
   {
      "name":"Nigeria",
@@ -1801,7 +1963,8 @@
         "Federal Republic of Nigeria"
      ],
      "population":186988000,
-     "flag":"https://restcountries.eu/data/nga.svg"
+     "flag":"https://restcountries.eu/data/nga.svg",
+     "region":"Africa"
   },
   {
      "name":"Niue",
@@ -1810,7 +1973,8 @@
         "NU"
      ],
      "population":1470,
-     "flag":"https://restcountries.eu/data/niu.svg"
+     "flag":"https://restcountries.eu/data/niu.svg",
+     "region":"Oceania"
   },
   {
      "name":"Norfolk Island",
@@ -1821,7 +1985,8 @@
         "Teratri of Norf'k Ailen"
      ],
      "population":2302,
-     "flag":"https://restcountries.eu/data/nfk.svg"
+     "flag":"https://restcountries.eu/data/nfk.svg",
+     "region":"Oceania"
   },
   {
      "name":"Korea (Democratic People's Republic of)",
@@ -1833,7 +1998,8 @@
         "Chosŏn Minjujuŭi Inmin Konghwaguk"
      ],
      "population":25281000,
-     "flag":"https://restcountries.eu/data/prk.svg"
+     "flag":"https://restcountries.eu/data/prk.svg",
+     "region":"Asia"
   },
   {
      "name":"Northern Mariana Islands",
@@ -1844,7 +2010,8 @@
         "Sankattan Siha Na Islas Mariånas"
      ],
      "population":56940,
-     "flag":"https://restcountries.eu/data/mnp.svg"
+     "flag":"https://restcountries.eu/data/mnp.svg",
+     "region":"Oceania"
   },
   {
      "name":"Norway",
@@ -1858,7 +2025,8 @@
         "Kongeriket Noreg"
      ],
      "population":5223256,
-     "flag":"https://restcountries.eu/data/nor.svg"
+     "flag":"https://restcountries.eu/data/nor.svg",
+     "region":"Europe"
   },
   {
      "name":"Oman",
@@ -1869,7 +2037,8 @@
         "Salṭanat ʻUmān"
      ],
      "population":4420133,
-     "flag":"https://restcountries.eu/data/omn.svg"
+     "flag":"https://restcountries.eu/data/omn.svg",
+     "region":"Asia"
   },
   {
      "name":"Pakistan",
@@ -1881,7 +2050,8 @@
         "Islāmī Jumhūriya'eh Pākistān"
      ],
      "population":194125062,
-     "flag":"https://restcountries.eu/data/pak.svg"
+     "flag":"https://restcountries.eu/data/pak.svg",
+     "region":"Asia"
   },
   {
      "name":"Palau",
@@ -1892,7 +2062,8 @@
         "Beluu er a Belau"
      ],
      "population":17950,
-     "flag":"https://restcountries.eu/data/plw.svg"
+     "flag":"https://restcountries.eu/data/plw.svg",
+     "region":"Oceania"
   },
   {
      "name":"Palestine, State of",
@@ -1903,7 +2074,8 @@
         "Dawlat Filasṭin"
      ],
      "population":4682467,
-     "flag":"https://restcountries.eu/data/pse.svg"
+     "flag":"https://restcountries.eu/data/pse.svg",
+     "region":"Asia"
   },
   {
      "name":"Panama",
@@ -1914,7 +2086,8 @@
         "República de Panamá"
      ],
      "population":3814672,
-     "flag":"https://restcountries.eu/data/pan.svg"
+     "flag":"https://restcountries.eu/data/pan.svg",
+     "region":"Americas"
   },
   {
      "name":"Papua New Guinea",
@@ -1925,7 +2098,8 @@
         "Independen Stet bilong Papua Niugini"
      ],
      "population":8083700,
-     "flag":"https://restcountries.eu/data/png.svg"
+     "flag":"https://restcountries.eu/data/png.svg",
+     "region":"Oceania"
   },
   {
      "name":"Paraguay",
@@ -1937,7 +2111,8 @@
         "Tetã Paraguái"
      ],
      "population":6854536,
-     "flag":"https://restcountries.eu/data/pry.svg"
+     "flag":"https://restcountries.eu/data/pry.svg",
+     "region":"Americas"
   },
   {
      "name":"Peru",
@@ -1948,7 +2123,8 @@
         " República del Perú"
      ],
      "population":31488700,
-     "flag":"https://restcountries.eu/data/per.svg"
+     "flag":"https://restcountries.eu/data/per.svg",
+     "region":"Americas"
   },
   {
      "name":"Philippines",
@@ -1959,7 +2135,8 @@
         "Repúblika ng Pilipinas"
      ],
      "population":103279800,
-     "flag":"https://restcountries.eu/data/phl.svg"
+     "flag":"https://restcountries.eu/data/phl.svg",
+     "region":"Asia"
   },
   {
      "name":"Pitcairn",
@@ -1969,7 +2146,8 @@
         "Pitcairn Henderson Ducie and Oeno Islands"
      ],
      "population":56,
-     "flag":"https://restcountries.eu/data/pcn.svg"
+     "flag":"https://restcountries.eu/data/pcn.svg",
+     "region":"Oceania"
   },
   {
      "name":"Poland",
@@ -1980,7 +2158,8 @@
         "Rzeczpospolita Polska"
      ],
      "population":38437239,
-     "flag":"https://restcountries.eu/data/pol.svg"
+     "flag":"https://restcountries.eu/data/pol.svg",
+     "region":"Europe"
   },
   {
      "name":"Portugal",
@@ -1992,7 +2171,8 @@
         "República Portuguesa"
      ],
      "population":10374822,
-     "flag":"https://restcountries.eu/data/prt.svg"
+     "flag":"https://restcountries.eu/data/prt.svg",
+     "region":"Europe"
   },
   {
      "name":"Puerto Rico",
@@ -2003,7 +2183,8 @@
         "Estado Libre Asociado de Puerto Rico"
      ],
      "population":3474182,
-     "flag":"https://restcountries.eu/data/pri.svg"
+     "flag":"https://restcountries.eu/data/pri.svg",
+     "region":"Americas"
   },
   {
      "name":"Qatar",
@@ -2014,7 +2195,8 @@
         "Dawlat Qaṭar"
      ],
      "population":2587564,
-     "flag":"https://restcountries.eu/data/qat.svg"
+     "flag":"https://restcountries.eu/data/qat.svg",
+     "region":"Asia"
   },
   {
      "name":"Republic of Kosovo",
@@ -2024,7 +2206,8 @@
         "Република Косово"
      ],
      "population":1733842,
-     "flag":"https://restcountries.eu/data/kos.svg"
+     "flag":"https://restcountries.eu/data/kos.svg",
+     "region":"Europe"
   },
   {
      "name":"Réunion",
@@ -2034,7 +2217,8 @@
         "Reunion"
      ],
      "population":840974,
-     "flag":"https://restcountries.eu/data/reu.svg"
+     "flag":"https://restcountries.eu/data/reu.svg",
+     "region":"Africa"
   },
   {
      "name":"Romania",
@@ -2046,7 +2230,8 @@
         "România"
      ],
      "population":19861408,
-     "flag":"https://restcountries.eu/data/rou.svg"
+     "flag":"https://restcountries.eu/data/rou.svg",
+     "region":"Europe"
   },
   {
      "name":"Russian Federation",
@@ -2059,7 +2244,8 @@
         "Rossiyskaya Federatsiya"
      ],
      "population":146599183,
-     "flag":"https://restcountries.eu/data/rus.svg"
+     "flag":"https://restcountries.eu/data/rus.svg",
+     "region":"Europe"
   },
   {
      "name":"Rwanda",
@@ -2071,7 +2257,8 @@
         "République du Rwanda"
      ],
      "population":11553188,
-     "flag":"https://restcountries.eu/data/rwa.svg"
+     "flag":"https://restcountries.eu/data/rwa.svg",
+     "region":"Africa"
   },
   {
      "name":"Saint Barthélemy",
@@ -2083,7 +2270,8 @@
         "Collectivité de Saint-Barthélemy"
      ],
      "population":9417,
-     "flag":"https://restcountries.eu/data/blm.svg"
+     "flag":"https://restcountries.eu/data/blm.svg",
+     "region":"Americas"
   },
   {
      "name":"Saint Helena, Ascension and Tristan da Cunha",
@@ -2092,7 +2280,8 @@
         "SH"
      ],
      "population":4255,
-     "flag":"https://restcountries.eu/data/shn.svg"
+     "flag":"https://restcountries.eu/data/shn.svg",
+     "region":"Africa"
   },
   {
      "name":"Saint Kitts and Nevis",
@@ -2102,7 +2291,8 @@
         "Federation of Saint Christopher and Nevis"
      ],
      "population":46204,
-     "flag":"https://restcountries.eu/data/kna.svg"
+     "flag":"https://restcountries.eu/data/kna.svg",
+     "region":"Americas"
   },
   {
      "name":"Saint Lucia",
@@ -2111,7 +2301,8 @@
         "LC"
      ],
      "population":186000,
-     "flag":"https://restcountries.eu/data/lca.svg"
+     "flag":"https://restcountries.eu/data/lca.svg",
+     "region":"Americas"
   },
   {
      "name":"Saint Martin (French part)",
@@ -2122,7 +2313,8 @@
         "Collectivité de Saint-Martin"
      ],
      "population":36979,
-     "flag":"https://restcountries.eu/data/maf.svg"
+     "flag":"https://restcountries.eu/data/maf.svg",
+     "region":"Americas"
   },
   {
      "name":"Saint Pierre and Miquelon",
@@ -2132,7 +2324,8 @@
         "Collectivité territoriale de Saint-Pierre-et-Miquelon"
      ],
      "population":6069,
-     "flag":"https://restcountries.eu/data/spm.svg"
+     "flag":"https://restcountries.eu/data/spm.svg",
+     "region":"Americas"
   },
   {
      "name":"Saint Vincent and the Grenadines",
@@ -2141,7 +2334,8 @@
         "VC"
      ],
      "population":109991,
-     "flag":"https://restcountries.eu/data/vct.svg"
+     "flag":"https://restcountries.eu/data/vct.svg",
+     "region":"Americas"
   },
   {
      "name":"Samoa",
@@ -2152,7 +2346,8 @@
         "Malo Saʻoloto Tutoʻatasi o Sāmoa"
      ],
      "population":194899,
-     "flag":"https://restcountries.eu/data/wsm.svg"
+     "flag":"https://restcountries.eu/data/wsm.svg",
+     "region":"Oceania"
   },
   {
      "name":"San Marino",
@@ -2163,7 +2358,8 @@
         "Repubblica di San Marino"
      ],
      "population":33005,
-     "flag":"https://restcountries.eu/data/smr.svg"
+     "flag":"https://restcountries.eu/data/smr.svg",
+     "region":"Europe"
   },
   {
      "name":"Sao Tome and Principe",
@@ -2174,7 +2370,8 @@
         "República Democrática de São Tomé e Príncipe"
      ],
      "population":187356,
-     "flag":"https://restcountries.eu/data/stp.svg"
+     "flag":"https://restcountries.eu/data/stp.svg",
+     "region":"Africa"
   },
   {
      "name":"Saudi Arabia",
@@ -2185,7 +2382,8 @@
         "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
      ],
      "population":32248200,
-     "flag":"https://restcountries.eu/data/sau.svg"
+     "flag":"https://restcountries.eu/data/sau.svg",
+     "region":"Asia"
   },
   {
      "name":"Senegal",
@@ -2196,7 +2394,8 @@
         "République du Sénégal"
      ],
      "population":14799859,
-     "flag":"https://restcountries.eu/data/sen.svg"
+     "flag":"https://restcountries.eu/data/sen.svg",
+     "region":"Africa"
   },
   {
      "name":"Serbia",
@@ -2209,7 +2408,8 @@
         "Republika Srbija"
      ],
      "population":7076372,
-     "flag":"https://restcountries.eu/data/srb.svg"
+     "flag":"https://restcountries.eu/data/srb.svg",
+     "region":"Europe"
   },
   {
      "name":"Seychelles",
@@ -2221,7 +2421,8 @@
         "République des Seychelles"
      ],
      "population":91400,
-     "flag":"https://restcountries.eu/data/syc.svg"
+     "flag":"https://restcountries.eu/data/syc.svg",
+     "region":"Africa"
   },
   {
      "name":"Sierra Leone",
@@ -2231,7 +2432,8 @@
         "Republic of Sierra Leone"
      ],
      "population":7075641,
-     "flag":"https://restcountries.eu/data/sle.svg"
+     "flag":"https://restcountries.eu/data/sle.svg",
+     "region":"Africa"
   },
   {
      "name":"Singapore",
@@ -2243,7 +2445,8 @@
         "新加坡共和国"
      ],
      "population":5535000,
-     "flag":"https://restcountries.eu/data/sgp.svg"
+     "flag":"https://restcountries.eu/data/sgp.svg",
+     "region":"Asia"
   },
   {
      "name":"Sint Maarten (Dutch part)",
@@ -2252,7 +2455,8 @@
         "SX"
      ],
      "population":38247,
-     "flag":"https://restcountries.eu/data/sxm.svg"
+     "flag":"https://restcountries.eu/data/sxm.svg",
+     "region":"Americas"
   },
   {
      "name":"Slovakia",
@@ -2263,7 +2467,8 @@
         "Slovenská republika"
      ],
      "population":5426252,
-     "flag":"https://restcountries.eu/data/svk.svg"
+     "flag":"https://restcountries.eu/data/svk.svg",
+     "region":"Europe"
   },
   {
      "name":"Slovenia",
@@ -2274,7 +2479,8 @@
         "Republika Slovenija"
      ],
      "population":2064188,
-     "flag":"https://restcountries.eu/data/svn.svg"
+     "flag":"https://restcountries.eu/data/svn.svg",
+     "region":"Europe"
   },
   {
      "name":"Solomon Islands",
@@ -2283,7 +2489,8 @@
         "SB"
      ],
      "population":642000,
-     "flag":"https://restcountries.eu/data/slb.svg"
+     "flag":"https://restcountries.eu/data/slb.svg",
+     "region":"Oceania"
   },
   {
      "name":"Somalia",
@@ -2296,7 +2503,8 @@
         "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
      ],
      "population":11079000,
-     "flag":"https://restcountries.eu/data/som.svg"
+     "flag":"https://restcountries.eu/data/som.svg",
+     "region":"Africa"
   },
   {
      "name":"South Africa",
@@ -2308,7 +2516,8 @@
         "Republic of South Africa"
      ],
      "population":55653654,
-     "flag":"https://restcountries.eu/data/zaf.svg"
+     "flag":"https://restcountries.eu/data/zaf.svg",
+     "region":"Africa"
   },
   {
      "name":"South Georgia and the South Sandwich Islands",
@@ -2318,7 +2527,8 @@
         "South Georgia and the South Sandwich Islands"
      ],
      "population":30,
-     "flag":"https://restcountries.eu/data/sgs.svg"
+     "flag":"https://restcountries.eu/data/sgs.svg",
+     "region":"Americas"
   },
   {
      "name":"Korea (Republic of)",
@@ -2328,7 +2538,8 @@
         "Republic of Korea"
      ],
      "population":50801405,
-     "flag":"https://restcountries.eu/data/kor.svg"
+     "flag":"https://restcountries.eu/data/kor.svg",
+     "region":"Asia"
   },
   {
      "name":"South Sudan",
@@ -2337,7 +2548,8 @@
         "SS"
      ],
      "population":12131000,
-     "flag":"https://restcountries.eu/data/ssd.svg"
+     "flag":"https://restcountries.eu/data/ssd.svg",
+     "region":"Africa"
   },
   {
      "name":"Spain",
@@ -2348,7 +2560,8 @@
         "Reino de España"
      ],
      "population":46438422,
-     "flag":"https://restcountries.eu/data/esp.svg"
+     "flag":"https://restcountries.eu/data/esp.svg",
+     "region":"Europe"
   },
   {
      "name":"Sri Lanka",
@@ -2359,7 +2572,8 @@
         "Democratic Socialist Republic of Sri Lanka"
      ],
      "population":20966000,
-     "flag":"https://restcountries.eu/data/lka.svg"
+     "flag":"https://restcountries.eu/data/lka.svg",
+     "region":"Asia"
   },
   {
      "name":"Sudan",
@@ -2370,7 +2584,8 @@
         "Jumhūrīyat as-Sūdān"
      ],
      "population":39598700,
-     "flag":"https://restcountries.eu/data/sdn.svg"
+     "flag":"https://restcountries.eu/data/sdn.svg",
+     "region":"Africa"
   },
   {
      "name":"Suriname",
@@ -2383,7 +2598,8 @@
         "Republiek Suriname"
      ],
      "population":541638,
-     "flag":"https://restcountries.eu/data/sur.svg"
+     "flag":"https://restcountries.eu/data/sur.svg",
+     "region":"Americas"
   },
   {
      "name":"Svalbard and Jan Mayen",
@@ -2393,7 +2609,8 @@
         "Svalbard and Jan Mayen Islands"
      ],
      "population":2562,
-     "flag":"https://restcountries.eu/data/sjm.svg"
+     "flag":"https://restcountries.eu/data/sjm.svg",
+     "region":"Europe"
   },
   {
      "name":"Swaziland",
@@ -2407,7 +2624,8 @@
         "Umbuso waseSwatini"
      ],
      "population":1132657,
-     "flag":"https://restcountries.eu/data/swz.svg"
+     "flag":"https://restcountries.eu/data/swz.svg",
+     "region":"Africa"
   },
   {
      "name":"Sweden",
@@ -2418,7 +2636,8 @@
         "Konungariket Sverige"
      ],
      "population":9894888,
-     "flag":"https://restcountries.eu/data/swe.svg"
+     "flag":"https://restcountries.eu/data/swe.svg",
+     "region":"Europe"
   },
   {
      "name":"Switzerland",
@@ -2432,7 +2651,8 @@
         "Svizra"
      ],
      "population":8341600,
-     "flag":"https://restcountries.eu/data/che.svg"
+     "flag":"https://restcountries.eu/data/che.svg",
+     "region":"Europe"
   },
   {
      "name":"Syrian Arab Republic",
@@ -2443,7 +2663,8 @@
         "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
      ],
      "population":18564000,
-     "flag":"https://restcountries.eu/data/syr.svg"
+     "flag":"https://restcountries.eu/data/syr.svg",
+     "region":"Asia"
   },
   {
      "name":"Taiwan",
@@ -2456,7 +2677,8 @@
         "Zhōnghuá Mínguó"
      ],
      "population":23503349,
-     "flag":"https://restcountries.eu/data/twn.svg"
+     "flag":"https://restcountries.eu/data/twn.svg",
+     "region":"Asia"
   },
   {
      "name":"Tajikistan",
@@ -2469,7 +2691,8 @@
         "Çumhuriyi Toçikiston"
      ],
      "population":8593600,
-     "flag":"https://restcountries.eu/data/tjk.svg"
+     "flag":"https://restcountries.eu/data/tjk.svg",
+     "region":"Asia"
   },
   {
      "name":"Tanzania, United Republic of",
@@ -2480,7 +2703,8 @@
         "Jamhuri ya Muungano wa Tanzania"
      ],
      "population":55155000,
-     "flag":"https://restcountries.eu/data/tza.svg"
+     "flag":"https://restcountries.eu/data/tza.svg",
+     "region":"Africa"
   },
   {
      "name":"Thailand",
@@ -2494,7 +2718,8 @@
         "Ratcha Anachak Thai"
      ],
      "population":65327652,
-     "flag":"https://restcountries.eu/data/tha.svg"
+     "flag":"https://restcountries.eu/data/tha.svg",
+     "region":"Asia"
   },
   {
      "name":"Timor-Leste",
@@ -2507,7 +2732,8 @@
         "Repúblika Demokrátika Timór-Leste"
      ],
      "population":1167242,
-     "flag":"https://restcountries.eu/data/tls.svg"
+     "flag":"https://restcountries.eu/data/tls.svg",
+     "region":"Asia"
   },
   {
      "name":"Togo",
@@ -2519,7 +2745,8 @@
         "République Togolaise"
      ],
      "population":7143000,
-     "flag":"https://restcountries.eu/data/tgo.svg"
+     "flag":"https://restcountries.eu/data/tgo.svg",
+     "region":"Africa"
   },
   {
      "name":"Tokelau",
@@ -2528,7 +2755,8 @@
         "TK"
      ],
      "population":1411,
-     "flag":"https://restcountries.eu/data/tkl.svg"
+     "flag":"https://restcountries.eu/data/tkl.svg",
+     "region":"Oceania"
   },
   {
      "name":"Tonga",
@@ -2537,7 +2765,8 @@
         "TO"
      ],
      "population":103252,
-     "flag":"https://restcountries.eu/data/ton.svg"
+     "flag":"https://restcountries.eu/data/ton.svg",
+     "region":"Oceania"
   },
   {
      "name":"Trinidad and Tobago",
@@ -2547,7 +2776,8 @@
         "Republic of Trinidad and Tobago"
      ],
      "population":1349667,
-     "flag":"https://restcountries.eu/data/tto.svg"
+     "flag":"https://restcountries.eu/data/tto.svg",
+     "region":"Americas"
   },
   {
      "name":"Tunisia",
@@ -2558,7 +2788,8 @@
         "al-Jumhūriyyah at-Tūnisiyyah"
      ],
      "population":11154400,
-     "flag":"https://restcountries.eu/data/tun.svg"
+     "flag":"https://restcountries.eu/data/tun.svg",
+     "region":"Africa"
   },
   {
      "name":"Turkey",
@@ -2570,7 +2801,8 @@
         "Türkiye Cumhuriyeti"
      ],
      "population":78741053,
-     "flag":"https://restcountries.eu/data/tur.svg"
+     "flag":"https://restcountries.eu/data/tur.svg",
+     "region":"Asia"
   },
   {
      "name":"Turkmenistan",
@@ -2579,7 +2811,8 @@
         "TM"
      ],
      "population":4751120,
-     "flag":"https://restcountries.eu/data/tkm.svg"
+     "flag":"https://restcountries.eu/data/tkm.svg",
+     "region":"Asia"
   },
   {
      "name":"Turks and Caicos Islands",
@@ -2588,7 +2821,8 @@
         "TC"
      ],
      "population":31458,
-     "flag":"https://restcountries.eu/data/tca.svg"
+     "flag":"https://restcountries.eu/data/tca.svg",
+     "region":"Americas"
   },
   {
      "name":"Tuvalu",
@@ -2597,7 +2831,8 @@
         "TV"
      ],
      "population":10640,
-     "flag":"https://restcountries.eu/data/tuv.svg"
+     "flag":"https://restcountries.eu/data/tuv.svg",
+     "region":"Oceania"
   },
   {
      "name":"Uganda",
@@ -2608,7 +2843,8 @@
         "Jamhuri ya Uganda"
      ],
      "population":33860700,
-     "flag":"https://restcountries.eu/data/uga.svg"
+     "flag":"https://restcountries.eu/data/uga.svg",
+     "region":"Africa"
   },
   {
      "name":"Ukraine",
@@ -2618,7 +2854,8 @@
         "Ukrayina"
      ],
      "population":42692393,
-     "flag":"https://restcountries.eu/data/ukr.svg"
+     "flag":"https://restcountries.eu/data/ukr.svg",
+     "region":"Europe"
   },
   {
      "name":"United Arab Emirates",
@@ -2628,7 +2865,8 @@
         "UAE"
      ],
      "population":9856000,
-     "flag":"https://restcountries.eu/data/are.svg"
+     "flag":"https://restcountries.eu/data/are.svg",
+     "region":"Asia"
   },
   {
      "name":"United Kingdom of Great Britain and Northern Ireland",
@@ -2639,7 +2877,8 @@
         "Great Britain"
      ],
      "population":65110000,
-     "flag":"https://restcountries.eu/data/gbr.svg"
+     "flag":"https://restcountries.eu/data/gbr.svg",
+     "region":"Europe"
   },
   {
      "name":"United States of America",
@@ -2650,7 +2889,8 @@
         "United States of America"
      ],
      "population":323947000,
-     "flag":"https://restcountries.eu/data/usa.svg"
+     "flag":"https://restcountries.eu/data/usa.svg",
+     "region":"Americas"
   },
   {
      "name":"Uruguay",
@@ -2661,7 +2901,8 @@
         "República Oriental del Uruguay"
      ],
      "population":3480222,
-     "flag":"https://restcountries.eu/data/ury.svg"
+     "flag":"https://restcountries.eu/data/ury.svg",
+     "region":"Americas"
   },
   {
      "name":"Uzbekistan",
@@ -2673,7 +2914,8 @@
         "Ўзбекистон Республикаси"
      ],
      "population":31576400,
-     "flag":"https://restcountries.eu/data/uzb.svg"
+     "flag":"https://restcountries.eu/data/uzb.svg",
+     "region":"Asia"
   },
   {
      "name":"Vanuatu",
@@ -2685,7 +2927,8 @@
         "République de Vanuatu"
      ],
      "population":277500,
-     "flag":"https://restcountries.eu/data/vut.svg"
+     "flag":"https://restcountries.eu/data/vut.svg",
+     "region":"Oceania"
   },
   {
      "name":"Venezuela (Bolivarian Republic of)",
@@ -2696,7 +2939,8 @@
         "República Bolivariana de Venezuela"
      ],
      "population":31028700,
-     "flag":"https://restcountries.eu/data/ven.svg"
+     "flag":"https://restcountries.eu/data/ven.svg",
+     "region":"Americas"
   },
   {
      "name":"Viet Nam",
@@ -2707,7 +2951,8 @@
         "Cộng hòa Xã hội chủ nghĩa Việt Nam"
      ],
      "population":92700000,
-     "flag":"https://restcountries.eu/data/vnm.svg"
+     "flag":"https://restcountries.eu/data/vnm.svg",
+     "region":"Asia"
   },
   {
      "name":"Wallis and Futuna",
@@ -2718,7 +2963,8 @@
         "Territoire des îles Wallis et Futuna"
      ],
      "population":11750,
-     "flag":"https://restcountries.eu/data/wlf.svg"
+     "flag":"https://restcountries.eu/data/wlf.svg",
+     "region":"Oceania"
   },
   {
      "name":"Western Sahara",
@@ -2728,7 +2974,8 @@
         "Taneẓroft Tutrimt"
      ],
      "population":510713,
-     "flag":"https://restcountries.eu/data/esh.svg"
+     "flag":"https://restcountries.eu/data/esh.svg",
+     "region":"Africa"
   },
   {
      "name":"Yemen",
@@ -2739,7 +2986,8 @@
         "al-Jumhūriyyah al-Yamaniyyah"
      ],
      "population":27478000,
-     "flag":"https://restcountries.eu/data/yem.svg"
+     "flag":"https://restcountries.eu/data/yem.svg",
+     "region":"Asia"
   },
   {
      "name":"Zambia",
@@ -2749,7 +2997,8 @@
         "Republic of Zambia"
      ],
      "population":15933883,
-     "flag":"https://restcountries.eu/data/zmb.svg"
+     "flag":"https://restcountries.eu/data/zmb.svg",
+     "region":"Africa"
   },
   {
      "name":"Zimbabwe",
@@ -2759,6 +3008,7 @@
         "Republic of Zimbabwe"
      ],
      "population":14240168,
-     "flag":"https://restcountries.eu/data/zwe.svg"
+     "flag":"https://restcountries.eu/data/zwe.svg",
+     "region":"Africa"
   }
 ]
