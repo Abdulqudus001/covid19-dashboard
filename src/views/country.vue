@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-md>
     {{ computeMapData }}
-    <v-layout align-center wrap>
+    <v-layout align-center wrap class="max-width">
       <h2 class="text-center text-capitalize my-3">Stats for {{ $route.params.country }}</h2>
       <v-spacer />
       <span>
@@ -51,7 +51,7 @@
         />
       </v-flex>
     </v-layout>
-    <v-layout wrap>
+    <v-layout wrap class="max-width">
       <v-flex sm12 md6>
         <v-card color="header" class="max-width my-4 chart-round">
           <highmaps :options="changeChartBGColor(mapOptions)"/>

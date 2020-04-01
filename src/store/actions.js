@@ -53,7 +53,7 @@ export default {
     commit('updateCountriesState', payload);
   },
   fetchCountryStatesCases({ commit }) {
-    Vue.axios.get('http://covid-19-countries.herokuapp.com/countries').then((res) => {
+    Vue.axios.get('https://covid-19-countries.herokuapp.com/countries').then((res) => {
       commit('updateCountryStatesCases', res.data);
     });
   },
