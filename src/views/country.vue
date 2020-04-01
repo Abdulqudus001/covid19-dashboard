@@ -439,7 +439,7 @@ export default {
       return countryData;
     },
     computeMapData() {
-      if (this.countryHasc && this.countryStatesData) {
+      if (this.countryHasc.length > 0 && this.countryStatesData.length > 0) {
         const mapdata = this.countryHasc.map((hasc) => {
           const stateData = this.countryStatesData.find((state) => {
             const similarity = stringSimilarity.compareTwoStrings(hasc.name, state.name);
@@ -535,9 +535,9 @@ export default {
       return chartData;
     },
     getCountryStatesData() {
-      const countryUrl = `http://covid-19-countries.herokuapp.com/countries/${this.country}`;
+      const countryUrl = `https://covid-19-countries.herokuapp.com/countries/${this.country}`;
       this.axios.get(countryUrl).then(({ data }) => {
-        if (Array.isArray(data[0])) {
+        if (Array.isArray(data) && data.length > 0) {
           this.countryStatesData = data[0].states;
         }
       });
