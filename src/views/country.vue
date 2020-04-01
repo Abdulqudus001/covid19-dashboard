@@ -457,6 +457,7 @@ export default {
     getMapData(countryDetails) {
       if (countryDetails) {
         const { alpha2Code } = countryDetails;
+        console.log(alpha2Code);
         const countryCode = alpha2Code.toLowerCase();
         const mapUrl = `https://code.highcharts.com/mapdata/countries/${countryCode}/${countryCode}-all.geo.json`;
         this.fetchMapData(mapUrl);
