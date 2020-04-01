@@ -23,6 +23,11 @@ yarn build
 yarn lint
 ```
 
+### To be added
+- Add world map showing affected countries
+- Setup push notifications for daily COVID19 tips
+- Add translation feature to enable users receive notifications in their language of choice
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
