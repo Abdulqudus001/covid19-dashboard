@@ -86,7 +86,6 @@ export default {
       return detailedCountryCases;
     },
     filtered() {
-      console.log(this.getCountryCaseDetails);
       const filtered = this.getCountryCaseDetails.filter((el) => {
         const name = el.name.toLowerCase();
         const region = el.region.toLowerCase();
