@@ -59,6 +59,10 @@
 </template>
 
 <script>
+// const googleTranslate = require('google-translate');
+
+// const apiKey = process.env.VUE_APP_GOOGLE_APPLICATION_CREDENTIALS;
+
 export default {
   name: 'App',
 
@@ -72,6 +76,16 @@ export default {
   },
   created() {
     this.$vuetify.theme.dark = true;
+  },
+  mounted() {
+    // const translate = googleTranslate(apiKey);
+    // translate.translate('My name is Brandon', 'es', (err, translation) => {
+    //   console.log(translation.translatedText);
+    //   // =>  Mi nombre es Brandon
+    // });
+    // translate.getSupportedLanguages('en', (err, lang) => {
+    //   console.log(lang);
+    // });
   },
 };
 </script>
