@@ -30,7 +30,7 @@
           <h2
             class="black--text display-1 font-weight-bold text-capitalize"
           >Stay home isolated and quarantined</h2>
-          <p>
+          <p class="title font-weight-regular">
             All have been advised to stay at home and quarantined.
             This is because of the 2019 Corona virus disease referred
             to as covid-19. Around the globe it's on a ravaging rampage.
@@ -47,7 +47,7 @@
 
     <section class="what text-center">
       <h2 class="red--text headline font-weight-black">What is COVID-19</h2>
-      <p>
+      <p class="title font-weight-regular my-sm-5 my-md-7">
         According to Nigeria Centre for Disease Control (NCDC) 2020 reports,
         Coronavirus disease (COVID-19) is an infectious disease caused by a new
         virus. The disease causes respiratory illness (like the flu) with symptoms
@@ -55,6 +55,15 @@
         You can protect yourself by washing your hands frequently, avoiding
         touching your face, and avoiding close contact (1 meter or 3 feet)
         with people who are unwell.
+      </p>
+    </section>
+
+    <section class="how text-center">
+      <h2 class="red--text headline font-weight-black">How Does It Spread</h2>
+      <p class="title font-weight-regular my-sm-5 my-md-7">
+        COVID-19 is a new disease and we continue to learn how it spreads,
+        the nature of the disease it causes and the degree to which it can
+        spread in the Federal Republic of Nigeria
       </p>
     </section>
   </v-container>
@@ -143,5 +152,21 @@ $red: #C12D25;
 
 .what {
   margin-top: 100px;
+}
+
+.what,
+.how {
+  margin-bottom: 50px;
+  p {
+    width: 80%;
+    margin: 20px auto;
+    @media only screen and (min-width: 960px) {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  @media only screen and (min-width: 960px) {
+    margin-bottom: 100px;
+  }
 }
 </style>
