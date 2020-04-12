@@ -50,7 +50,12 @@
       </v-tooltip>
     </v-app-bar>
 
-    <v-content>
+    <v-content v-if="$route.name !== 'Home'">
+      <transition name="slide-fade">
+        <router-view />
+      </transition>
+    </v-content>
+    <v-content v-else style="background-color: #fff;">
       <transition name="slide-fade">
         <router-view />
       </transition>
