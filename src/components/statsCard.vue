@@ -1,7 +1,7 @@
 <template>
   <div class="stats" :style="{background: $vuetify.theme.themes[theme].header}">
     <v-icon :class="type">{{ icon }}</v-icon>
-    <p class="stats-count">{{ count }}</p>
+    <p class="stats-count">{{ count | format }}</p>
     <p>{{ name }}</p>
   </div>
 </template>
@@ -29,6 +29,12 @@ export default {
   computed: {
     theme() {
       return (this.$vuetify.theme.dark) ? 'dark' : 'light';
+    },
+  },
+  filters: {
+    format(value) {
+      if (!value) return '';
+      return value.toLocaleString();
     },
   },
 };

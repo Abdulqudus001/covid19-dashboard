@@ -11,13 +11,13 @@
       </a>
       <ul class="nav-items">
         <li>
-          <a href="#/world">World</a>
+          <a href="#/dashboard">World</a>
         </li>
         <li>
-          <a href="#/world">Countries</a>
+          <a href="#/countries">Countries</a>
         </li>
         <li>
-          <a href="#/world">News</a>
+          <a href="#/news">News</a>
         </li>
       </ul>
     </nav>
