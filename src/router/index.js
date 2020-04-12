@@ -14,6 +14,11 @@ const routes = [
     component: Home,
   },
   {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import('../views/dashboard.vue'),
+  },
+  {
     path: '/countries',
     name: 'countries',
     component: () => import('../views/countries.vue'),

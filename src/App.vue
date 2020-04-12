@@ -3,7 +3,7 @@
     id="main"
     :style="{background: $vuetify.theme.themes[theme].background}"
   >
-    <v-app-bar app color="header" v-if="$route.name !== 'about'">
+    <v-app-bar app color="header" v-if="$route.name !== 'Home'">
       <a
         href="/"
         class="link link-img"
@@ -24,6 +24,11 @@
 
       <v-spacer></v-spacer>
       <a
+        href="#/dashboard"
+        class="link"
+        :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
+      >World</a>
+      <a
         href="#/news"
         class="link"
         :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
@@ -33,11 +38,6 @@
         class="link"
         :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
       >Countries</a>
-      <a
-        href="#/about"
-        class="link"
-        :class="$vuetify.theme.dark ? 'link-dark' : 'link-light'"
-      >About</a>
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark" v-on="on">
