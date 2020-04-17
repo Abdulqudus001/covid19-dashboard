@@ -21,12 +21,12 @@ const computeData = (countries, data, type) => {
 
 export default {
   fetchWorldData({ commit }) {
-    Vue.axios.get('https://corona.lmao.ninja/all').then((res) => {
+    Vue.axios.get('https://corona.lmao.ninja/v2/all').then((res) => {
       commit('updateWorldData', res.data);
     });
   },
   fetchWorldDataToday({ commit }) {
-    Vue.axios.get('https://corona.lmao.ninja/countries').then((res) => {
+    Vue.axios.get('https://corona.lmao.ninja/v2/countries').then((res) => {
       commit('updateWorldDataToday', res.data);
     });
   },
