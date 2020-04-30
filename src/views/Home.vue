@@ -65,6 +65,90 @@
         the nature of the disease it causes and the degree to which it can
         spread in the Federal Republic of Nigeria
       </p>
+      <v-layout justify-space-between row wrap>
+        <v-flex sm12 md3 class="spread text-center">
+          <img src="@/assets/home/contaminated.png" alt="">
+          <p class=" headline font-weight-medium">Contaminated objects and substances</p>
+          <p class="subtitle-1 font-weight-regular">
+            Flu viruses may cause mild to severe illness.
+            Learn about common symptoms and complications.
+          </p>
+        </v-flex>
+        <v-flex sm12 md3 class="spread text-center">
+          <img src="@/assets/home/Droplets.png" alt="">
+          <p class=" headline font-weight-medium">Air Transmission of Droplets</p>
+          <p class="subtitle-1 font-weight-regular">
+            There are a number of tests available to detect
+            influenza viruses.
+          </p>
+        </v-flex>
+        <v-flex sm12 md3 class="spread text-center">
+          <img src="@/assets/home/transmission.png" alt="">
+          <p class=" headline font-weight-medium">Contaminated objects and substances</p>
+          <p class="subtitle-1 font-weight-regular">
+            Flu viruses may cause mild to severe illness.
+            Learn about common symptoms and complications.
+          </p>
+        </v-flex>
+      </v-layout>
+    </section>
+
+    <section class="symptoms text-center text-md-left">
+      <v-layout class="row wrap justify-space-between align-center">
+        <v-flex sm12 md6>
+          <img src="@/assets/home/symptoms.png" alt="">
+        </v-flex>
+        <v-flex sm12 md5>
+          <h2 class="red--text headline font-weight-black">
+            Symptoms of coronavirus
+          </h2>
+          <p>
+            Those infected with COVID-19 may have symptoms that are small to no.
+            You may not know that you have COVID-19 symptoms, as they are similar
+            to a cold or flu.
+          </p>
+          <p>
+            Symptoms may take up to 14 days to develop after
+            exposure to COVID-19. This is the longest known contagious period
+            for this disease. Experts are currently investigating whether the
+            virus can be transmitted to others if someone does not show symptoms
+            while believing that it is possible to do so is considered to be
+            less common.
+          </p>
+          <p>Symptoms have included</p>
+          <v-layout
+            row
+            wrap
+            class="align-start flex-column flex-sm-row justify-sm-start justify-md-space-between"
+          >
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Fever
+            </v-flex>
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Cough
+            </v-flex>
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Difficulty Breathing
+            </v-flex>
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Weakness
+            </v-flex>
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Sore Throat
+            </v-flex>
+            <v-flex xs12 sm4 md6 class="symptom">
+              <img src="@/assets/home/check.svg" alt="">
+              Headache
+            </v-flex>
+          </v-layout>
+          <p>In severe cases, infection can lead to death.</p>
+        </v-flex>
+      </v-layout>
     </section>
   </v-container>
 </template>
@@ -155,7 +239,8 @@ $red: #C12D25;
 }
 
 .what,
-.how {
+.how,
+.symptoms {
   margin-bottom: 50px;
   p {
     width: 80%;
@@ -167,6 +252,40 @@ $red: #C12D25;
   }
   @media only screen and (min-width: 960px) {
     margin-bottom: 100px;
+  }
+}
+
+.spread img {
+  height: 100px;
+}
+
+.symptoms {
+  img  {
+    width: 500px;
+    max-width: 80%;
+    margin-bottom: 50px;
+  }
+  @media only screen and (min-width: 960px) {
+    img {
+      width: 100%;
+    }
+  }
+  .align-start {
+    width: 200px;
+    margin: 0 auto;
+    @media only screen and (min-width: 600px) {
+      width: 100%;
+    }
+  }
+  .symptom {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+      margin: 0 10px;
+      width: 20px;
+    }
   }
 }
 </style>
