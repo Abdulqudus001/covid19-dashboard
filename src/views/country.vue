@@ -537,8 +537,8 @@ export default {
     getCountryStatesData() {
       const countryUrl = `https://covid-19-countries.herokuapp.com/countries/${this.country}`;
       this.axios.get(countryUrl).then(({ data }) => {
-        if (Array.isArray(data) && data.length > 0) {
-          this.countryStatesData = data[0].states;
+        if (Array.isArray(data.states) && data.states.length > 0) {
+          this.countryStatesData = data.states;
         }
       });
     },
