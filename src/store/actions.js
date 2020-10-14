@@ -26,7 +26,7 @@ export default {
     });
   },
   fetchWorldDataToday({ commit }) {
-    Vue.axios.get('https://corona.lmao.ninja/v2/countries').then((res) => {
+    Vue.axios.get('https://corona.lmao.ninja/v3/covid-19/countries').then((res) => {
       commit('updateWorldDataToday', res.data);
     });
   },
