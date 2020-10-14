@@ -67,7 +67,7 @@ import { mapGetters } from 'vuex';
 
 export default {
   data: () => ({
-    continent: '',
+    continent: 'Africa',
     country: '',
     items: ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania', 'World'],
   }),
